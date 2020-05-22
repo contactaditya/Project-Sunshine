@@ -16,6 +16,7 @@ input[type=text] {
 p.text {
   font-family: 'Poppins', sans-serif;
   color: #ffffff;
+  padding-right: 100px;
 }
 
 p.text1 {
@@ -23,6 +24,28 @@ p.text1 {
   text-align: center;
   color: #ffffff;
   padding-right: 450px;
+}
+
+p.card-heading {
+  font-family: 'Poppins', sans-serif;
+  color: black;
+  font-weight: bold;
+  font-size: 11.6px;
+  text-align: center;
+}
+
+p.card-text {
+  font-family: 'Poppins', sans-serif;
+  color: black;
+  font-size: 10.6px;
+  text-align: center;
+}
+
+p.card-caption {
+  font-family: 'Poppins', sans-serif;
+  color: black;
+  font-size: 9px;
+  text-align: center;
 }
 
 .video {
@@ -118,6 +141,32 @@ hr {
   padding: 125px;
 }
 
+#image13 {
+  width: 200px;
+  height: 100px;
+  display: block;
+  margin: 0 auto;
+}
+
+#image14 {
+	width: 300px;
+  height: 300px;
+  display: block;
+  margin: 0 auto;
+}
+
+#image15 {
+  width: 100px;
+  height: 100px;
+  float: left;
+}
+
+#image16 {
+  width: 100px;
+  height: 100px;
+  float: right;
+}
+
 .searchTerm {
   width: 290px;
   height: 46px;
@@ -126,9 +175,10 @@ hr {
 }
 
 .socialmedia {
+  padding-top: 10px;
   padding-left: 450px;
   width: 925px;
-  height: 100px;
+  height: 80px;
   text-align: center;
   background-color: #f3f3f3;
 }
@@ -171,6 +221,42 @@ hr {
   height: 715px;
   background-color: #f49f0b;
   padding: 5px;
+}
+
+.activitykitsrectangle {
+  padding: 5px;
+  width: 1366px;
+  height: 268px;
+  background-color: #23b839;
+  text-align: center;
+}
+
+.activitykitsimagerectangle {
+  width: 1366px;
+  height: 715px;
+  background-color: #0fb4de;
+  padding: 5px;
+}
+
+.activitykitscardsrectangle {
+  width: 1366px;
+  height: 2650px;
+  background-color: #f49f0b;
+}
+
+.button {
+  width: 250px;
+  height: 30px;
+  border-radius: 27.6px;
+  border: solid 0.8px #979797;
+  background-color: #ffffff;
+  font-family: 'Poppins', sans-serif;
+  color: #0fb4de;
+}
+
+.card {
+  width: 324px;
+  height: 230px;
 }
 
 /* Four image containers (use 25% for four, and 50% for two, etc) */
@@ -265,6 +351,16 @@ hr {
   float: right; 
 }
 
+.column-16 {
+  padding-left: 70px;
+  flex: 33%;
+}
+
+.column-17 {
+  padding-left: 100px;
+  flex: 50%;
+}
+
 .toprow {
   display: flex;
 }
@@ -282,9 +378,9 @@ hr {
   }
   
   .row2 {
-    padding: 25px;
+    padding: 40px;
     display: flex;
-    padding-bottom: 25px;
+    padding-bottom: 40px;
   }
 
   .row1 {
@@ -344,5 +440,16 @@ hr {
 
   h4.psjoy {
     padding-right: 300px;
+  }
+
+  h4.activitykits {
+    text-align: center;
+    padding-right: 100px;
+  }
+
+  h4.card-title {
+    text-align: center;
+    font-weight: bold;
+    color: black;
   }
   
