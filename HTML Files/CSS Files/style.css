@@ -26,6 +26,21 @@ p.text2 {
   font-size: 14px;
 }
 
+p.text3 {
+  font-family: 'Poppins', sans-serif;
+  text-align: right;
+  color: #ffffff;
+  font-size: 14px;
+}
+
+p.text4 {
+  font-family: 'Poppins', sans-serif;
+  text-align: left;
+  color: #ffffff;
+  font-size: 14px;
+  padding-left: 30px;
+}
+
 p.card-heading {
   font-family: 'Poppins', sans-serif;
   color: black;
@@ -231,6 +246,19 @@ hr {
   position: absolute;
 }
 
+#image27 {
+  width: 677px;
+  height: 371px;
+  padding-left: 120px;
+  padding-top: 5px;
+  float: left;
+}
+
+#image28 {
+  width: 212px;
+  height: 119px;
+}
+
 .socialmedia {
   padding-top: 10px;
   padding-left: 450px;
@@ -287,6 +315,13 @@ hr {
   padding: 25px;
 }
 
+.ages4-7rectangle {
+  width: 1315px;
+  height: 710px;
+  background-color: #f49f0b;
+  padding: 25px;
+}
+
 .ages0-3booksrectangle {
   width: 1315px;
   height: 675px;
@@ -305,6 +340,13 @@ hr {
   width: 1315px;
   height: 750px;
   background-color: #23b839;
+  padding: 25px;
+}
+
+.ages4-7others {
+  width: 1315px;
+  height: 675px;
+  background-color: #f49f0b;
   padding: 25px;
 }
 
@@ -485,6 +527,7 @@ hr {
   padding-top: 10px;
   flex: 25%;
   text-align: center;
+  padding-left: 50px;
 }
 
 .column-26 {
@@ -497,8 +540,36 @@ hr {
   padding-top: 10px;
   flex: 25%;
   text-align: center;
+  padding-right: 50px;
 }
 
+.column-28 {
+  padding-top: 10px;
+  flex: 25%;
+  text-align: center;
+  padding-left: 175px;
+}
+
+.column-29 {
+  padding-top: 10px;
+  flex: 25%;
+  text-align: center;
+}
+
+.column-30 {
+  padding-top: 10px;
+  flex: 25%;
+  text-align: center;
+  padding-right: 175px;
+}
+
+.column-31 {
+  flex: 50%;
+}
+
+.column-32 {
+  flex: 50%;
+}
 
 .toprow {
   display: flex;
@@ -540,6 +611,10 @@ hr {
     background-color: #f49f0b;
     width: 1265px;
     height: 410px;
+  }
+
+  .row3 {
+    display: flex;
   }
 
   .video1 {
@@ -596,6 +671,18 @@ hr {
     font-size: 26px;
   }
 
+  h3.ages4-7 {
+    text-align: left;
+    padding-left: 200px;
+    font-size: 26px;
+  }
+
+  h3.ages4-7-1 {
+    text-align: right;
+    padding-right: 200px;
+    font-size: 26px;
+  }
+
   h4 {
     text-align: center;
   }
@@ -621,3 +708,8 @@ hr {
     font-size: 20px;
   }
 
+  h4.ages4-7 {
+    text-align: left;
+    font-size: 20px;
+    padding-left: 30px;
+  }
