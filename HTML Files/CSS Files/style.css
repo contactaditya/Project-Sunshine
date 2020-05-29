@@ -69,6 +69,7 @@ p.card-caption {
 
 .video1 {
   text-align: center;
+  display: flex;
 }
 
 .image {
@@ -239,7 +240,7 @@ hr {
 
 #image26 {
   width: 20px;
-  height: 16px;
+  height: 18px;
   padding-left: 10px;
   padding-top: 5px;
   float: left;
@@ -614,10 +615,6 @@ hr {
   }
 
   .row3 {
-    display: flex;
-  }
-
-  .video1 {
     display: flex;
   }
 
