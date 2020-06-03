@@ -184,8 +184,8 @@ hr {
 }
 
 #image17 {
-  width: 1700px;
-  height: 325px;
+  width: 1366px;
+  height: 400px;
   position: relative;
 }
 
@@ -196,7 +196,7 @@ hr {
   display: block;
   margin: 0 auto;
   padding-left: 530px;
-  padding-top: 150px;
+  padding-top: 175px;
 }
 
 #image19 {
@@ -258,6 +258,11 @@ hr {
 #image28 {
   width: 212px;
   height: 119px;
+}
+
+#image29 {
+  width: 625px;
+  height: 340px;
 }
 
 .socialmedia {
@@ -323,9 +328,44 @@ hr {
   padding: 25px;
 }
 
+.teensrectangle {
+  width: 1315px;
+  height: 710px;
+  background-color: #f49f0b;
+  padding: 25px;
+}
+
+.caregiversfamilyactivityrectangle {
+  width: 1315px;
+  height: 600px;
+  background-color: #f49f0b;
+  padding: 25px;
+}
+
 .ages0-3booksrectangle {
   width: 1315px;
   height: 675px;
+  background-color: #0fb4de;
+  padding: 25px;
+}
+
+.teensbooksrectangle {
+  width: 1315px;
+  height: 675px;
+  background-color: #0fb4de;
+  padding: 25px;
+}
+
+.teenstabletappsandonlinegames {
+  width: 1315px;
+  height: 575px;
+  background-color: #0fb4de;
+  padding: 25px;
+}
+
+.caregiversemotionalwellbeingrectangle {
+  width: 1315px;
+  height: 725px;
   background-color: #0fb4de;
   padding: 25px;
 }
@@ -337,6 +377,20 @@ hr {
   padding: 25px;
 }
 
+.teenstvchannelsandeducationalgamesrectangle {
+  width: 1315px;
+  height: 575px;
+  background-color: #ffc800;
+  padding: 25px;
+}
+
+.caregiversadditionalcaregiverresourcesrectangle {
+  width: 1315px;
+  height: 600px;
+  background-color: #ffc800;
+  padding: 25px;
+}
+
 .ages0-3onlinemuseumsandzoos {
   width: 1315px;
   height: 750px;
@@ -344,9 +398,30 @@ hr {
   padding: 25px;
 }
 
+.ages8-12onlinemuseumsandzoos {
+  width: 1315px;
+  height: 710px;
+  background-color: #23b839;
+  padding: 25px;
+}
+
+.teensonlinemuseumsandzoos {
+  width: 1315px;
+  height: 710px;
+  background-color: #23b839;
+  padding: 25px;
+}
+
 .ages4-7others {
   width: 1315px;
   height: 675px;
+  background-color: #f49f0b;
+  padding: 25px;
+}
+
+.teensothers {
+  width: 1315px;
+  height: 625px;
   background-color: #f49f0b;
   padding: 25px;
 }
@@ -572,12 +647,78 @@ hr {
   flex: 50%;
 }
 
+.column-33 {
+  padding-top: 125px; 
+}
+
+.column-34 {
+  padding-top: 10px;
+  padding-left: 25px;
+  flex: 25%;
+  text-align: center;
+}
+
+.column-35 {
+  padding-top: 10px;
+  padding-left: 25px;
+  flex: 25%;
+  text-align: center;
+  padding-right: 50px;
+}
+
+.column-36 {
+  padding-left: 5px;
+  padding-top: 50px;  
+}
+
+.column-37 {
+  padding-top: 10px;
+  padding-left: 60px;
+  flex: 33%; 
+}
+
+.column-38 {
+  padding-top: 10px;
+  padding-left: 10px;
+  flex: 33%;
+}
+
+.column-39 {
+  padding-top: 10px;
+  padding-left: 10px;
+  padding-right: 60px;
+  flex: 33%;
+}
+
+.column-40 {
+  padding-top: 10px;
+  padding-left: 20px;
+  flex: 25%; 
+}
+
+.column-41 {
+  padding-top: 10px;
+  padding-left: 15px;
+  flex: 25%;
+}
+
+.column-42 {
+  padding-top: 10px;
+  padding-left: 15px;
+  padding-right: 20px;
+  flex: 25%;
+}
+
 .toprow {
   display: flex;
   padding: 5px;
 }
 
 .imagerow {
+  display: flex;
+}
+
+.illustrationrow {
   display: flex;
 }
 
@@ -682,6 +823,8 @@ hr {
 
   h4 {
     text-align: center;
+    margin: 0;
+    padding-top: 10px;
   }
 
   h4.psjoy {
