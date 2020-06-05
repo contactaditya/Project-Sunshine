@@ -41,6 +41,42 @@ p.text4 {
   padding-left: 30px;
 }
 
+span.text {
+  font-family: 'Poppins';
+  color: #ffffff;
+  text-align: center;
+  font-size: 16px;
+}
+
+span.text1 {
+  font-family: 'Poppins';
+  padding-left: 405px;
+  text-align: center;
+  color: #ffffff;
+  font-size: 13px;
+  line-height: 3.54;
+  letter-spacing: 1.8px;
+  display: inline;
+}
+
+span.text2 {
+  font-family: 'Poppins-Regular';
+  color: #ffffff;
+  text-align: center;
+  font-size: 18px;
+}
+
+span.text3 {
+  font-family: 'Poppins';
+  padding-left: 405px;
+  text-align: center;
+  color: #ffffff;
+  font-size: 13px;
+  line-height: 3.54;
+  letter-spacing: 1.8px;
+  display: inline;
+}
+
 p.card-heading {
   font-family: 'Poppins', sans-serif;
   color: black;
@@ -274,11 +310,20 @@ hr {
   background-color: #f3f3f3;
 }
 
-.socialmediacampaign {
+.socialmediacampaignpsjoy {
   padding: 20px;
-  padding-bottom: 20px;
+  padding-bottom: 10px;
   width: 1337px;
-  height: 150px;
+  height: 110px;
+  text-align: center;
+  background-color: #0fb4de;
+}
+
+.socialmediacampaignactivitykits {
+  padding: 20px;
+  padding-bottom: 10px;
+  width: 1337px;
+  height: 130px;
   text-align: center;
   background-color: #0fb4de;
 }
@@ -302,14 +347,14 @@ hr {
 .psjoyrectangle {
   padding: 5px;
   width: 1366px;
-  height: 225px;
+  height: 175px;
   background-color: #23b839;
   text-align: center;
 }
 
 .psjoyvideorectangle {
   width: 1366px;
-  height: 715px;
+  height: 710px;
   background-color: #f49f0b;
   padding: 5px;
 }
@@ -322,6 +367,13 @@ hr {
 }
 
 .ages4-7rectangle {
+  width: 1315px;
+  height: 710px;
+  background-color: #f49f0b;
+  padding: 25px;
+}
+
+.ages8-12rectangle {
   width: 1315px;
   height: 710px;
   background-color: #f49f0b;
@@ -343,6 +395,20 @@ hr {
 }
 
 .ages0-3booksrectangle {
+  width: 1315px;
+  height: 675px;
+  background-color: #0fb4de;
+  padding: 25px;
+}
+
+.ages4-7booksrectangle {
+  width: 1315px;
+  height: 675px;
+  background-color: #0fb4de;
+  padding: 25px;
+}
+
+.ages8-12booksrectangle {
   width: 1315px;
   height: 675px;
   background-color: #0fb4de;
@@ -377,6 +443,20 @@ hr {
   padding: 25px;
 }
 
+.ages4-7tvchannelsandeducationalgamesrectangle {
+  width: 1315px;
+  height: 640px;
+  background-color: #ffc800;
+  padding: 25px;
+}
+
+.ages8-12tvchannelsandeducationalgamesrectangle {
+  width: 1315px;
+  height: 640px;
+  background-color: #ffc800;
+  padding: 25px;
+}
+
 .teenstvchannelsandeducationalgamesrectangle {
   width: 1315px;
   height: 575px;
@@ -392,6 +472,13 @@ hr {
 }
 
 .ages0-3onlinemuseumsandzoos {
+  width: 1315px;
+  height: 750px;
+  background-color: #23b839;
+  padding: 25px;
+}
+
+.ages4-7onlinemuseumsandzoos {
   width: 1315px;
   height: 750px;
   background-color: #23b839;
@@ -414,6 +501,13 @@ hr {
 
 .ages4-7others {
   width: 1315px;
+  height: 625px;
+  background-color: #f49f0b;
+  padding: 25px;
+}
+
+.ages8-12others {
+  width: 1315px;
   height: 675px;
   background-color: #f49f0b;
   padding: 25px;
@@ -429,14 +523,14 @@ hr {
 .activitykitsrectangle {
   padding: 5px;
   width: 1366px;
-  height: 268px;
+  height: 215px;
   background-color: #23b839;
   text-align: center;
 }
 
-.activitykitsimagerectangle {
+.activitykitsvideorectangle {
   width: 1366px;
-  height: 715px;
+  height: 650px;
   background-color: #0fb4de;
   padding: 5px;
 }
@@ -561,7 +655,7 @@ hr {
 }
 
 .column-17 {
-  padding-left: 100px;
+  padding-left: 425px;
   flex: 50%;
 }
 
@@ -673,7 +767,7 @@ hr {
 
 .column-37 {
   padding-top: 10px;
-  padding-left: 60px;
+  padding-left: 100px;
   flex: 33%; 
 }
 
@@ -686,7 +780,7 @@ hr {
 .column-39 {
   padding-top: 10px;
   padding-left: 10px;
-  padding-right: 60px;
+  padding-right: 100px;
   flex: 33%;
 }
 
@@ -707,6 +801,43 @@ hr {
   padding-left: 15px;
   padding-right: 20px;
   flex: 25%;
+}
+
+.column-43 {
+  padding-right: 50px;
+  padding-top: 25px;
+}
+
+.column-44 {
+  padding-right: 100px;
+}
+
+.column-45 {
+  text-align: center;
+  padding-top: 10px;
+  font-family: 'Poppins-Regular';
+  font-size: 18px;
+  padding-right: 50px;
+}
+
+.column-46 {
+  text-align: center;
+  padding-top: 10px;
+  font-family: 'Poppins-Regular';
+  font-size: 18px;
+  padding-right: 50px;
+}
+
+.column-47 {
+  padding-right: 100px;
+  padding-top: 10px;
+}
+
+.column-48 {
+  font-family: 'Poppins';
+  color: #ffffff;
+  padding-right: 50px;
+  padding-top: 10px;
 }
 
 .toprow {
@@ -778,9 +909,17 @@ hr {
     color: #ffffff;
   }
 
+  h1.activitykits {
+    padding-right: 120px;
+    text-align: center;
+    font-size: 35px;
+  }
+
   h1.psjoy {
     padding-right: 120px;
     text-align: center;
+    font-size: 35px;
+    display: inline;
   }
  
   h2 {
@@ -805,8 +944,37 @@ hr {
 
   h3.ages0-3 {
     text-align: center;
-    padding-right: 100px;
     font-size: 26px;
+    display: inline;
+    padding-left: 475px;
+  }
+
+  h3.teensbooks {
+    text-align: center;
+    font-size: 26px;
+    display: inline;
+    padding-left: 500px;
+  }
+
+  h3.teenstvchannelandeducationalgames {
+    text-align: center;
+    font-size: 26px;
+    display: inline;
+    padding-left: 450px;
+  }
+
+  h3.teensonlinemuseumsandzoos {
+    text-align: center;
+    font-size: 26px;
+    display: inline;
+    padding-left: 325px;
+  }
+
+  h3.teensothers {
+    text-align: center;
+    font-size: 26px;
+    display: inline;
+    padding-left: 600px;
   }
 
   h3.ages4-7 {
@@ -821,6 +989,62 @@ hr {
     font-size: 26px;
   }
 
+  h3.ages4-7books {
+    text-align: center;
+    font-size: 26px;
+    display: inline;
+    padding-left: 525px;
+  }
+
+  h3.ages4-7tvchannelandeducationalgames {
+    text-align: center;
+    font-size: 26px;
+    display: inline;
+    padding-left: 450px;
+  }
+
+  h3.ages4-7onlinemuseumsandzoos {
+    text-align: center;
+    font-size: 26px;
+    display: inline;
+    padding-left: 325px;
+  }
+
+  h3.ages4-7others {
+    text-align: center;
+    font-size: 26px;
+    display: inline;
+    padding-left: 600px;
+  }
+
+  h3.ages8-12books {
+    text-align: center;
+    font-size: 26px;
+    display: inline;
+    padding-left: 525px;
+  }
+
+  h3.ages8-12tvchannelandeducationalgames {
+    text-align: center;
+    font-size: 26px;
+    display: inline;
+    padding-left: 450px;
+  }
+
+  h3.ages8-12onlinemuseumsandzoos {
+    text-align: center;
+    font-size: 26px;
+    display: inline;
+    padding-left: 325px;
+  }
+
+  h3.ages8-12others {
+    text-align: center;
+    font-size: 26px;
+    display: inline;
+    padding-left: 600px;
+  }
+
   h4 {
     text-align: center;
     margin: 0;
@@ -828,13 +1052,25 @@ hr {
   }
 
   h4.psjoy {
-    padding-right: 300px;
+    text-align: center;
+    display: inline;
+    font-family: 'Poppins';
+    font-size: 20px;
+    padding-left: 15px;
   }
 
   h4.activitykits {
     text-align: center;
-    padding-right: 50px;
+    padding-left: 405px;
     font-size: 18px;
+    display: inline;
+  }
+
+  h4.activitykits1 {
+    text-align: center;
+    font-size: 18px;
+    display: inline;
+    padding-right: 25px;
   }
 
   h4.card-title {
