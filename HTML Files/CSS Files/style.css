@@ -157,8 +157,8 @@ hr {
 }
 
 #image6 {
-  width: 1055px;
-  height: 410px;
+  width: auto;
+  height: 400px;
 }
 
 #image7 {
@@ -568,14 +568,16 @@ hr {
 
  .column-1 {
     flex: 25%;
-    padding: 25px;
+    padding-top: 25px;
+    padding-left: 25px;
     background-color: #0fb4de;
     font-family: 'Poppins';
  }
 
  .column-2 {
     flex: 25%;
-    padding: 25px;
+    padding-top: 25px;
+    padding-left: 25px;
     background-color: #23b839;
  }
 
@@ -607,13 +609,12 @@ hr {
 
 .column-6 {
   padding: 50px;
-  padding-left: 60px;
-  flex: 10%;
+  flex: 50%;
   text-align: left;  
 }
 
 .column-7 {
-  flex: 90%;
+  flex: 50%;
 }
 
 .column-8 {
@@ -885,8 +886,8 @@ hr {
   .row1 {
     display: flex;
     background-color: #f49f0b;
-    width: 1265px;
-    height: 410px;
+    width: 100%;
+    height: 400px;
   }
 
   .row3 {
