@@ -6,6 +6,10 @@ body {
   color: #ffffff;
 }
 
+input {
+  text-indent: 35px;
+}
+
 p.text {
   font-family: 'Poppins', sans-serif;
   color: #ffffff;
@@ -131,8 +135,8 @@ hr {
 }
 
 #image2 {
-	width: 300px;
-  height: 360px;
+  width: 100%;
+  height: 340px;
 }
 
 #image3 {
@@ -153,7 +157,7 @@ hr {
 }
 
 #image6 {
-  width: 952px;
+  width: 1055px;
   height: 410px;
 }
 
@@ -389,7 +393,7 @@ hr {
 
 .caregiversfamilyactivityrectangle {
   width: 1315px;
-  height: 600px;
+  height: 550px;
   background-color: #f49f0b;
   padding: 25px;
 }
@@ -410,7 +414,7 @@ hr {
 
 .ages8-12booksrectangle {
   width: 1315px;
-  height: 675px;
+  height: 650px;
   background-color: #0fb4de;
   padding: 25px;
 }
@@ -422,7 +426,7 @@ hr {
   padding: 25px;
 }
 
-.teenstabletappsandonlinegames {
+.teenstabletappsandonlinegamesrectangle {
   width: 1315px;
   height: 575px;
   background-color: #0fb4de;
@@ -431,7 +435,7 @@ hr {
 
 .caregiversemotionalwellbeingrectangle {
   width: 1315px;
-  height: 725px;
+  height: 675px;
   background-color: #0fb4de;
   padding: 25px;
 }
@@ -452,7 +456,7 @@ hr {
 
 .ages8-12tvchannelsandeducationalgamesrectangle {
   width: 1315px;
-  height: 640px;
+  height: 600px;
   background-color: #ffc800;
   padding: 25px;
 }
@@ -471,49 +475,49 @@ hr {
   padding: 25px;
 }
 
-.ages0-3onlinemuseumsandzoos {
+.ages0-3onlinemuseumsandzoosrectangle {
   width: 1315px;
   height: 700px;
   background-color: #23b839;
   padding: 25px;
 }
 
-.ages4-7onlinemuseumsandzoos {
+.ages4-7onlinemuseumsandzoosrectangle {
   width: 1315px;
   height: 725px;
   background-color: #23b839;
   padding: 25px;
 }
 
-.ages8-12onlinemuseumsandzoos {
+.ages8-12onlinemuseumsandzoosrectangle {
   width: 1315px;
   height: 710px;
   background-color: #23b839;
   padding: 25px;
 }
 
-.teensonlinemuseumsandzoos {
+.teensonlinemuseumsandzoosrectangle {
   width: 1315px;
   height: 710px;
   background-color: #23b839;
   padding: 25px;
 }
 
-.ages4-7others {
+.ages4-7othersrectangle {
   width: 1315px;
   height: 625px;
   background-color: #f49f0b;
   padding: 25px;
 }
 
-.ages8-12others {
+.ages8-12othersrectangle {
   width: 1315px;
-  height: 675px;
+  height: 600px;
   background-color: #f49f0b;
   padding: 25px;
 }
 
-.teensothers {
+.teensothersrectangle {
   width: 1315px;
   height: 625px;
   background-color: #f49f0b;
@@ -566,8 +570,7 @@ hr {
     flex: 25%;
     padding: 25px;
     background-color: #0fb4de;
-    font-family: 'Poppins', sans-serif;
-    padding-bottom: 10px;
+    font-family: 'Poppins';
  }
 
  .column-2 {
@@ -870,7 +873,7 @@ hr {
   /* Clear floats after image containers */
   .row {
     display: flex;
-    height: 360px;
+    height: 340px;
   }
   
   .row2 {
@@ -938,60 +941,69 @@ hr {
     color: #ffffff;
   }
 
+  h3.index {
+    font-size: 32px;
+    margin: 0;
+  }
+
   h3.ages0-3 {
     text-align: center;
     font-size: 26px;
-    display: inline;
-    padding-left: 475px;
   }
 
   h3.ages0-3books {
     text-align: center;
     font-size: 26px;
-    display: inline;
-    padding-left: 525px;
   }
 
   h3.ages0-3tvchannelandeducationalgames {
     text-align: center;
     font-size: 26px;
-    display: inline;
-    padding-left: 425px;
   }
 
   h3.ages0-3onlinemuseumsandzoos {
     text-align: center;
     font-size: 26px;
-    display: inline;
-    padding-left: 325px;
   }
 
   h3.teensbooks {
     text-align: center;
     font-size: 26px;
-    display: inline;
-    padding-left: 500px;
   }
 
-  h3.teenstvchannelandeducationalgames {
+  h3.teenstvchannelsandeducationalgames {
     text-align: center;
     font-size: 26px;
-    display: inline;
-    padding-left: 425px;
   }
 
   h3.teensonlinemuseumsandzoos {
     text-align: center;
     font-size: 26px;
-    display: inline;
-    padding-left: 325px;
+  }
+
+  h3.teenstabletappsandonlinegames {
+    text-align: center;
+    font-size: 26px;
   }
 
   h3.teensothers {
     text-align: center;
     font-size: 26px;
-    display: inline;
-    padding-left: 600px;
+  }
+
+  h3.caregiversfamilyactivity {
+    text-align: center;
+    font-size: 26px;
+  }
+
+  h3.caregiversemotionalwellbeing {
+    text-align: center;
+    font-size: 26px;
+  }
+
+  h3.caregiversadditionalcaregiverresources {
+    text-align: center;
+    font-size: 26px;
   }
 
   h3.ages4-7 {
@@ -1009,57 +1021,41 @@ hr {
   h3.ages4-7books {
     text-align: center;
     font-size: 26px;
-    display: inline;
-    padding-left: 525px;
   }
 
   h3.ages4-7tvchannelandeducationalgames {
     text-align: center;
     font-size: 26px;
-    display: inline;
-    padding-left: 425px;
   }
 
   h3.ages4-7onlinemuseumsandzoos {
     text-align: center;
     font-size: 26px;
-    display: inline;
-    padding-left: 325px;
   }
 
   h3.ages4-7others {
     text-align: center;
     font-size: 26px;
-    display: inline;
-    padding-left: 600px;
   }
 
   h3.ages8-12books {
     text-align: center;
     font-size: 26px;
-    display: inline;
-    padding-left: 525px;
   }
 
   h3.ages8-12tvchannelandeducationalgames {
     text-align: center;
     font-size: 26px;
-    display: inline;
-    padding-left: 425px;
   }
 
   h3.ages8-12onlinemuseumsandzoos {
     text-align: center;
     font-size: 26px;
-    display: inline;
-    padding-left: 325px;
   }
 
   h3.ages8-12others {
     text-align: center;
     font-size: 26px;
-    display: inline;
-    padding-left: 600px;
   }
 
   h4 {
