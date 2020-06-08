@@ -142,8 +142,8 @@ hr {
 }
 
 #image4 {
-  width: 51px;
-  height: 51px;
+  width: 35px;
+  height: 35px;
 }
 
 #image5 {
@@ -361,7 +361,7 @@ hr {
 
 .ages0-3rectangle {
   width: 1315px;
-  height: 600px;
+  height: 530px;
   background-color: #f49f0b;
   padding: 25px;
 }
@@ -396,14 +396,14 @@ hr {
 
 .ages0-3booksrectangle {
   width: 1315px;
-  height: 675px;
+  height: 635px;
   background-color: #0fb4de;
   padding: 25px;
 }
 
 .ages4-7booksrectangle {
   width: 1315px;
-  height: 675px;
+  height: 650px;
   background-color: #0fb4de;
   padding: 25px;
 }
@@ -438,14 +438,14 @@ hr {
 
 .ages0-3tvchannelsandeducationalgamesrectangle {
   width: 1315px;
-  height: 640px;
+  height: 580px;
   background-color: #ffc800;
   padding: 25px;
 }
 
 .ages4-7tvchannelsandeducationalgamesrectangle {
   width: 1315px;
-  height: 640px;
+  height: 600px;
   background-color: #ffc800;
   padding: 25px;
 }
@@ -473,14 +473,14 @@ hr {
 
 .ages0-3onlinemuseumsandzoos {
   width: 1315px;
-  height: 750px;
+  height: 700px;
   background-color: #23b839;
   padding: 25px;
 }
 
 .ages4-7onlinemuseumsandzoos {
   width: 1315px;
-  height: 750px;
+  height: 725px;
   background-color: #23b839;
   padding: 25px;
 }
@@ -893,10 +893,6 @@ hr {
   .books {
     display: flex;
   }
-
-  .socialmedia {
-    display: flex;
-  }
   
   h1 {
     font-family: 'Poppins', sans-serif;
@@ -949,6 +945,27 @@ hr {
     padding-left: 475px;
   }
 
+  h3.ages0-3books {
+    text-align: center;
+    font-size: 26px;
+    display: inline;
+    padding-left: 525px;
+  }
+
+  h3.ages0-3tvchannelandeducationalgames {
+    text-align: center;
+    font-size: 26px;
+    display: inline;
+    padding-left: 425px;
+  }
+
+  h3.ages0-3onlinemuseumsandzoos {
+    text-align: center;
+    font-size: 26px;
+    display: inline;
+    padding-left: 325px;
+  }
+
   h3.teensbooks {
     text-align: center;
     font-size: 26px;
@@ -960,7 +977,7 @@ hr {
     text-align: center;
     font-size: 26px;
     display: inline;
-    padding-left: 450px;
+    padding-left: 425px;
   }
 
   h3.teensonlinemuseumsandzoos {
@@ -1000,7 +1017,7 @@ hr {
     text-align: center;
     font-size: 26px;
     display: inline;
-    padding-left: 450px;
+    padding-left: 425px;
   }
 
   h3.ages4-7onlinemuseumsandzoos {
@@ -1028,7 +1045,7 @@ hr {
     text-align: center;
     font-size: 26px;
     display: inline;
-    padding-left: 450px;
+    padding-left: 425px;
   }
 
   h3.ages8-12onlinemuseumsandzoos {
