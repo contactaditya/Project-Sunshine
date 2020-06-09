@@ -14,7 +14,7 @@ body {
 /* Navbar container */
 .menu {
   font-family: 'Poppins';
-  padding-left: 450px;
+  padding-left: 300px;
 }
 
 /* Links inside the navbar */
@@ -23,7 +23,7 @@ body {
   font-size: 16px;
   color: black;
   text-align: center;
-  padding: 14px 16px;
+  padding: 14px 50px;
   text-decoration: none;
 }
 
@@ -38,7 +38,7 @@ body {
   border: none;
   outline: none;
   color: black;
-  padding: 14px 16px;
+  padding: 14px 50px;
   background-color: inherit;
   font-family: inherit; /* Important for vertical align on mobile phones */
   margin: 0; /* Important for vertical align on mobile phones */
@@ -47,6 +47,7 @@ body {
 /* Add a red background color to navbar links on hover */
 .menu a:hover, .dropdown:hover .dropbtn {
   background-color: #e87800;
+  color: white;
 }
 
 /* Dropdown content (hidden by default) */
