@@ -81,7 +81,7 @@ body {
   display: block;
 }
 
-input {
+.searchTerm {
   text-indent: 35px;
 }
 
@@ -626,7 +626,7 @@ hr {
   border-radius: 27.6px;
   border: solid 0.8px #979797;
   background-color: #ffffff;
-  font-family: 'Poppins', sans-serif;
+  font-family: 'Poppins';
   color: #0fb4de;
   font-size: 14px;
 }
@@ -885,6 +885,7 @@ hr {
 .column-43 {
   padding-right: 50px;
   padding-top: 25px;
+  text-align: center;
 }
 
 .column-44 {
