@@ -168,7 +168,18 @@ span.text2 {
 
 span.text3 {
   font-family: 'Poppins';
-  padding-left: 405px;
+  padding-left: 350px;
+  text-align: center;
+  color: #ffffff;
+  font-size: 13px;
+  line-height: 3.54;
+  letter-spacing: 1.8px;
+  display: inline;
+}
+
+span.text4 {
+  font-family: 'Poppins';
+  padding-left: 390px;
   text-align: center;
   color: #ffffff;
   font-size: 13px;
@@ -201,6 +212,7 @@ p.card-caption {
 
 .video {
   text-align: center;
+  display: block;
 }
 
 .video1 {
@@ -227,7 +239,7 @@ hr {
 #image1 {
 	width: 173px;
   height: 115px;
-  padding-left: 550px;
+  padding-left: 450px;
 }
 
 #image2 {
@@ -399,19 +411,17 @@ hr {
 }
 
 .socialmediacampaignpsjoy {
-  padding: 20px;
   padding-bottom: 10px;
-  width: 1337px;
-  height: 110px;
+  width: 100%;
+  height: 140px;
   text-align: center;
   background-color: #0fb4de;
 }
 
 .socialmediacampaignactivitykits {
-  padding: 20px;
   padding-bottom: 10px;
-  width: 1337px;
-  height: 130px;
+  width: 100%;
+  height: 160px;
   text-align: center;
   background-color: #0fb4de;
 }
@@ -434,18 +444,16 @@ hr {
 }
 
 .psjoyrectangle {
-  padding: 5px;
-  width: 1366px;
+  width: 100%;
   height: 175px;
   background-color: #23b839;
   text-align: center;
 }
 
 .psjoyvideorectangle {
-  width: 1366px;
-  height: 710px;
+  width: 100%;
+  height: 707px;
   background-color: #f49f0b;
-  padding: 5px;
 }
 
 .ages0-3rectangle {
@@ -588,7 +596,7 @@ hr {
 
 .activitykitsrectangle {
   width: 100%;
-  height: 215px;
+  height: 250px;
   background-color: #23b839;
   text-align: center;
 }
@@ -697,7 +705,7 @@ hr {
 }
 
 .column-11 {
-  padding-left: 35px;
+  padding-left: 15px;
   padding-top: 50px;  
 }
 
@@ -875,7 +883,7 @@ hr {
 }
 
 .column-44 {
-  padding-right: 100px;
+  text-align: center;
 }
 
 .column-45 {
@@ -895,7 +903,7 @@ hr {
 }
 
 .column-47 {
-  padding-right: 100px;
+  text-align: center;
   padding-top: 10px;
 }
 
@@ -972,13 +980,11 @@ hr {
   }
 
   h1.activitykits {
-    padding-right: 120px;
     text-align: center;
     font-size: 35px;
   }
 
   h1.psjoy {
-    padding-right: 120px;
     text-align: center;
     font-size: 35px;
     display: inline;
@@ -1132,12 +1138,11 @@ hr {
     display: inline;
     font-family: 'Poppins';
     font-size: 20px;
-    padding-left: 15px;
   }
 
   h4.activitykits {
     text-align: center;
-    padding-left: 405px;
+    padding-left: 350px;
     font-size: 18px;
     display: inline;
   }
