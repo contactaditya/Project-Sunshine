@@ -89,6 +89,23 @@ body {
   text-indent: 35px;
 }
 
+/* Styling the default Slick dots */
+	
+.slick-dots li.slick-active button {
+	background-color: white;
+}
+
+.dots {
+  height: 40px;
+  width: 40px;
+  background-color: silver;
+  border-radius: 100%;
+  display: inline-block;
+  justify-content: center;
+  margin: 30px;
+  text-align: center;
+}
+	
 p.text {
   font-family: 'Poppins', sans-serif;
   color: #ffffff;
@@ -444,9 +461,8 @@ hr {
 
 .ages0-3rectangle {
   width: 1315px;
-  height: 530px;
+  height: 600px;
   background-color: #f49f0b;
-  padding: 25px;
 }
 
 .ages4-7rectangle {
@@ -479,9 +495,8 @@ hr {
 
 .ages0-3booksrectangle {
   width: 1315px;
-  height: 635px;
+  height: 700px;
   background-color: #0fb4de;
-  padding: 25px;
 }
 
 .ages4-7booksrectangle {
@@ -521,9 +536,8 @@ hr {
 
 .ages0-3tvchannelsandeducationalgamesrectangle {
   width: 1315px;
-  height: 580px;
+  height: 650px;
   background-color: #ffc800;
-  padding: 25px;
 }
 
 .ages4-7tvchannelsandeducationalgamesrectangle {
@@ -556,9 +570,8 @@ hr {
 
 .ages0-3onlinemuseumsandzoosrectangle {
   width: 1315px;
-  height: 700px;
+  height: 750px;
   background-color: #23b839;
-  padding: 25px;
 }
 
 .ages4-7onlinemuseumsandzoosrectangle {
