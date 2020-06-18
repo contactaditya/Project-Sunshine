@@ -398,7 +398,7 @@ hr {
 }
 
 #image29 {
-  width: 625px;
+  width: 550px;
   height: 340px;
 }
 
@@ -550,6 +550,12 @@ hr {
   width: 100%;
   height: 640px;
   background-color: #ffc800;
+}
+
+.ages0-3musicrectangle {
+  width: 100%;
+  height: 650px;
+  background-color: #f49f0b;
 }
 
 .ages0-3onlinemuseumsandzoosrectangle {
@@ -1026,6 +1032,11 @@ hr {
   }
 
   h3.ages0-3tvchannelandeducationalgames {
+    text-align: center;
+    font-size: 26px;
+  }
+
+  h3.ages0-3music {
     text-align: center;
     font-size: 26px;
   }
