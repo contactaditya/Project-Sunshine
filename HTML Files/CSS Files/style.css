@@ -570,6 +570,12 @@ hr {
   background-color: #f49f0b;
 }
 
+.ages4-7musicrectangle {
+  width: 100%;
+  height: 650px;
+  background-color: #f49f0b;
+}
+
 .ages0-3onlinemuseumsandzoosrectangle {
   width: 100%;
   height: 750px;
@@ -1116,6 +1122,11 @@ hr {
   }
 
   h3.ages4-7tvchannelandeducationalgames {
+    text-align: center;
+    font-size: 26px;
+  }
+
+  h3.ages4-7music {
     text-align: center;
     font-size: 26px;
   }
