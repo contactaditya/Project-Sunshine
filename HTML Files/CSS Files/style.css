@@ -498,9 +498,21 @@ hr {
   background-color: #0fb4de;
 }
 
+.ages4-7tabletappsandonlinegamesrectangle {
+  width: 100%;
+  height: 625px;
+  background-color: #0fb4de;
+}
+
 .ages8-12booksrectangle {
   width: 100%;
   height: 655px;
+  background-color: #0fb4de;
+}
+
+.ages8-12tabletappsandonlinegamesrectangle {
+  width: 100%;
+  height: 625px;
   background-color: #0fb4de;
 }
 
@@ -775,7 +787,7 @@ hr {
   padding-top: 10px;
   flex: 25%;
   text-align: center;
-  padding-left: 50px;
+  padding-left: 25px;
 }
 
 .column-26 {
@@ -788,7 +800,7 @@ hr {
   padding-top: 10px;
   flex: 25%;
   text-align: center;
-  padding-right: 50px;
+  padding-right: 25px;
 }
 
 .column-28 {
@@ -1113,6 +1125,11 @@ hr {
     font-size: 26px;
   }
 
+  h3.ages4-7tabletappsandonlinegames {
+    text-align: center;
+    font-size: 26px;
+  }
+
   h3.ages4-7others {
     text-align: center;
     font-size: 26px;
@@ -1129,6 +1146,11 @@ hr {
   }
 
   h3.ages8-12onlinemuseumsandzoos {
+    text-align: center;
+    font-size: 26px;
+  }
+
+  h3.ages8-12tabletappsandonlinegames {
     text-align: center;
     font-size: 26px;
   }
