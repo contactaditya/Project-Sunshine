@@ -3,11 +3,15 @@
 <html lang="en">
 <head>
 <meta charset="UTF-8">
-<meta name = "viewport" content="width=device-width, initial-scale=1">
+<meta name = "viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Poppins&display=swap">
 <link rel = "stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 <title> Ages 0-3 </title>
 <link rel="stylesheet" href="CSS Files/style.css">	
+
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+<script>window.jQuery || document.write('<script src="JS Files/vendor/jquery.slim.min.js"><\/script>')</script>
+<script src="JS Files/bootstrap.bundle.js"></script>
 </head>
 <body>
 <div class = "toprow">
@@ -57,13 +61,53 @@
 <div class = "ages0-3booksrectangle">
 <br>
 <h3 class = "ages0-3books"> All Things Books </h3> 
-<div class = "books">
-<div class = "column-23"> <img src="Images/group-copy-2_2.png" id="image10"> </div>
-<div class = "column-25"> <a href = "https://stories.audible.com/start-listen" target="_blank" rel="noopener noreferrer"> <img src="Images/audiblebooks.jpg" id="image20"> </a> <h4 class = "ages0-3"> AudibleBooks </h4> <p class = "text2"> Stream hundreds of <br> incredible stories free on <br> your desktop, laptop, <br> phone or tablet. </p> </div>
-<div class = "column-26"> <a href = "https://lalilo.com" target="_blank" rel="noopener noreferrer"> <img src="Images/lalilo.jpg" id="image20"> </a> <h4 class = "ages0-3"> Lalilo </h4> <p class = "text2"> The best phonics and <br> comprehension <br> program now for free. </p> </div>
-<div class = "column-26"> <a href = "https://www.instagram.com/penguinkids/" target="_blank" rel="noopener noreferrer"> <img src="Images/penguinkids.jpg" id="image20"> </a> <h4 class = "ages0-3"> PenguinKids </h4> <p class = "text2"> Check out their <br> Instagram and join your <br> favorite authors & <br> celebrities for Virtual <br> Storytime. <br> #ReadTogetherBeTogether.</p> </div>
-<div class = "column-27"> <a href = "https://www.instagram.com/savewithstories/channel/" target="_blank" rel="noopener noreferrer"> <img src="Images/savewithstories.jpg" id="image20"> </a> <h4 class = "ages0-3"> SaveWithStories </h4> <p class = "text2"> Listen to celebrities read <br> their favorite stories on <br> Instagram. </p> </div>
-<div class = "column-24"> <img src="Images/group-copy-2.png" id="image10"> </div>
+<div id="myCarousel" class="carousel slide" data-ride="carousel">
+<ol class="carousel-indicators">
+<li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+<li data-target="#myCarousel" data-slide-to="1"></li>
+<li data-target="#myCarousel" data-slide-to="2"></li>
+</ol>
+<div class="carousel-inner">
+<div class="carousel-item active">
+<svg class="bd-placeholder-img" width="100%" height="100%" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid slice" focusable="false" role="img"></svg>
+<div class="carousel-caption"> 
+<div class="books">  
+<div class = "column-25"> <a href = "https://stories.audible.com/start-listen" target="_blank" rel="noopener noreferrer"> <img src="Images/audiblebooks.jpg" id="image20"> </a> <h4 class = "ages0-3"> AudibleBooks </h4> <p class = "text2"> Stream hundreds of incredible stories free on your desktop, laptop, phone or tablet. </p> </div>
+<div class = "column-26"> <a href = "https://lalilo.com" target="_blank" rel="noopener noreferrer"> <img src="Images/lalilo.jpg" id="image20"> </a> <h4 class = "ages0-3"> Lalilo </h4> <p class = "text2"> The best phonics and comprehension program now for free. </p> </div>
+<div class = "column-26"> <a href = "https://www.instagram.com/penguinkids/" target="_blank" rel="noopener noreferrer"> <img src="Images/penguinkids.jpg" id="image20"> </a> <h4 class = "ages0-3"> PenguinKids </h4> <p class = "text2"> Check out their <br> Instagram and join your favorite authors & celebrities for Virtual Storytime. <br> #ReadTogetherBeTogether.</p> </div>
+<div class = "column-27"> <a href = "https://www.instagram.com/savewithstories/channel/" target="_blank" rel="noopener noreferrer"> <img src="Images/savewithstories.jpg" id="image20"> </a> <h4 class = "ages0-3"> SaveWithStories </h4> <p class = "text2"> Listen to celebrities read their favorite stories on Instagram. </p> </div>
+</div>
+</div>
+</div>
+<div class="carousel-item">
+<svg class="bd-placeholder-img" width="100%" height="100%" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid slice" focusable="false" role="img"></svg>
+<div class="carousel-caption"> 
+<div class="books">  
+<div class = "column-25"> <a href = "https://www.youtube.com/embed/nd9fGpuyukE" target="_blank" rel="noopener noreferrer"> <img src="Images/StoryTimePart1.jpg" id="image20"> </a> <h4 class = "ages0-3"> StoryTimePart1 </h4> <p class = "text2"> Enjoy this lovely story created <br> and read by Project Sunshine <br> volunteer Brandi Van. </p> </div>
+<div class = "column-26"> <a href = "https://www.youtube.com/embed/JFMuAhSKh1k" target="_blank" rel="noopener noreferrer"> <img src="Images/StoryTimePart2.jpg" id="image20"> </a> <h4 class = "ages0-3"> StoryTimePart2 </h4> <p class = "text2"> Enjoy this lovely story created <br> and read by Project Sunshine <br> volunteer Brandi Van. </p> </div>
+<div class = "column-26"> <a href = "https://www.youtube.com/embed/k7ZQVh87Zhc" target="_blank" rel="noopener noreferrer"> <img src="Images/StoryTimePart3.jpg" id="image20"> </a> <h4 class = "ages0-3"> StoryTimePart3 </h4> <p class = "text2"> Enjoy this lovely story created <br> and read by Project Sunshine <br> volunteer Brandi Van. </p> </div>
+<div class = "column-27"> <a href = "https://www.instagram.com/runningpresskids/" target="_blank" rel="noopener noreferrer"> <img src="Images/StoryTimeWithAuthors.jpg" id="image20"> </a> <h4 class = "ages0-3"> StoryTimeWithAuthors </h4> <p class = "text2"> Join different authors every day <br> at 10am EST as books come <br> to play.</p> </div>
+</div>
+</div>
+</div>
+<div class="carousel-item">
+<svg class="bd-placeholder-img" width="100%" height="100%" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid slice" focusable="false" role="img"></svg>
+<div class="carousel-caption"> 
+<div class="books">  
+<div class = "column-26"> <a href = "https://www.youtube.com/channel/UCqjZKaooWbqvQ-ETGSNuQFw" target="_blank" rel="noopener noreferrer"> <img src="Images/alivestorytime.jpg" id="image20"> </a> <h4 class = "ages0-3"> ALIVEStoryTime </h4> <p class = "text2"> Join Miss Ferreira and her <br> friend Eddy the Elephant as they <br> bring the most magical and <br> adventurous stories to life! </p> </div>
+</div>
+</div>
+</div>
+</div>
+<br>
+<a class="carousel-control-prev" href="#myCarousel" role="button" data-slide="prev">
+<span class="carousel-control-prev-icon" aria-hidden="true"></span>
+<span class="sr-only">Previous</span>
+</a>
+<a class="carousel-control-next" href="#myCarousel" role="button" data-slide="next">
+<span class="carousel-control-next-icon" aria-hidden="true"></span>
+<span class="sr-only">Next</span>
+</a>
 </div>
 <img src="Images/group-134.png" id="image22">
 <img src="Images/group-258.png" id="image21">
