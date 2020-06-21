@@ -89,6 +89,19 @@ body {
   text-indent: 35px;
 }
 
+.rotate {
+  animation: rotation 8s infinite linear;
+}
+
+@keyframes rotation {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(359deg);
+  }
+}
+
 /* Styling the default Slick dots */
 	
 .slick-dots li.slick-active button {
@@ -452,7 +465,7 @@ hr {
 
 .psjoyvideorectangle {
   width: 100%;
-  height: 707px;
+  height: 720px;
   background-color: #f49f0b;
 }
 
