@@ -337,12 +337,14 @@ hr {
   width: 100px;
   height: 100px;
   float: left;
+  padding-top: 200px;
 }
 
 #image16 {
   width: 100px;
   height: 100px;
   float: right;
+  padding-top: 200px;
 }
 
 #image17 {
