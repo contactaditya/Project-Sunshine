@@ -214,6 +214,7 @@ p.card-text {
   color: black;
   font-size: 13px;
   text-align: center;
+  padding: 10px;
 }
 
 p.card-caption {
@@ -646,7 +647,7 @@ hr {
 
 .activitykitscardsrectangle {
   width: 100%;
-  height: 2800px;
+  height: 3000px;
   background-color: #f49f0b;
 }
 
