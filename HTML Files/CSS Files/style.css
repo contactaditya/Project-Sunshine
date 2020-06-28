@@ -202,24 +202,24 @@ span.text4 {
 }
 
 p.card-heading {
-  font-family: 'Poppins', sans-serif;
+  font-family: 'Poppins';
   color: black;
   font-weight: bold;
-  font-size: 11.6px;
+  font-size: 14px;
   text-align: center;
 }
 
 p.card-text {
-  font-family: 'Poppins', sans-serif;
+  font-family: 'Poppins';
   color: black;
-  font-size: 10.6px;
+  font-size: 13px;
   text-align: center;
 }
 
 p.card-caption {
-  font-family: 'Poppins', sans-serif;
+  font-family: 'Poppins';
   color: black;
-  font-size: 9px;
+  font-size: 12px;
   text-align: center;
 }
 
@@ -646,7 +646,7 @@ hr {
 
 .activitykitscardsrectangle {
   width: 100%;
-  height: 2650px;
+  height: 2800px;
   background-color: #f49f0b;
 }
 
@@ -662,8 +662,12 @@ hr {
 }
 
 .card {
-  width: 324px;
-  height: 230px;
+  width: 100%;
+  height: auto;
+  background-color:#fff;
+  background-clip:border-box;
+  border:1px solid rgba(0,0,0,.125);
+  border-radius:.25rem;
 }
 
 /* Four image containers (use 25% for four, and 50% for two, etc) */
@@ -759,13 +763,14 @@ hr {
 }
 
 .column-16 {
-  padding-left: 70px;
+  padding-left: 50px;
   flex: 33%;
 }
 
 .column-17 {
-  padding-left: 425px;
-  flex: 50%;
+  padding-left: 50px;
+  padding-right: 50px;
+  flex: 33%;
 }
 
 .column-18 {
@@ -1455,19 +1460,19 @@ hr {
   height: 500px;
 }
 
-  .container {
-    width: 100%;
-    padding-right: 15px;
-    padding-left: 15px;
-    margin-right: auto;
-    margin-left: auto;
-  }
+.container {
+  width: 100%;
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+}
   
-  @media (min-width: 576px) {
-    .container {
+@media (min-width: 576px) {
+  .container {
       max-width: 540px;
-    }
   }
+}
   
   @media (min-width: 768px) {
     .container {
