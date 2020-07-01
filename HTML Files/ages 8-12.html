@@ -13,6 +13,14 @@
 <script>window.jQuery || document.write('<script src="JS Files/vendor/jquery.slim.min.js"><\/script>')</script>
 <script src="JS Files/bootstrap.bundle.js"></script>
 <script src="JS Files/bootstrap.bundle1.js"></script>
+<script type="text/javascript">
+    function divid_visibility(id, id1) {
+       var e = document.getElementById(id);
+       var f = document.getElementById(id1);
+       e.style.display = 'block';
+       f.style.display = 'none';
+    }
+</script>
 </head>
 <body>
 <div class = "toprow">
@@ -49,9 +57,11 @@
 <div class = "ages8-12rectangle">
 <br>
 <div class = "row3">
-<div class = "column-31"> <h3 class = "ages4-7"> Visual Classes </h3> </div>  
-<div class = "column-32"> <h3 class = "ages4-7-1"> Live Class you may like </h3> </div> 
+<div class = "column-31"> <a href="#VisualClasses" onclick="divid_visibility('VisualClasses', 'LiveClassYouMayLike');"> <h3 class = "ages4-7"> Visual Classes </h3> </a> </div>  
+<div class = "column-32"> <a href="#LiveClassYouMayLike" onclick="divid_visibility('LiveClassYouMayLike', 'VisualClasses');"> <h3 class = "ages4-7-1"> Live Class you may like </h3> </a> </div> 
 </div>
+<div id = "VisualClasses">
+<br>
 <div class = "row3">
 <div class = "column-31"> <iframe width="677" height="371" src="https://www.youtube.com/embed/jyWyBern6q4" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> </div> 
 <div class = "column-32"> <h4 class = "ages4-7"> AvengersWorkout </h4> <p class = "text4"> Let your kids experience an awesome <br> Avengers Endgame Kids Tabata <br> workout. </p> </div>
@@ -93,6 +103,59 @@
 <span class="carousel-control-next-icon" aria-hidden="true"></span>
 <span class="sr-only">Next</span>
 </a>
+</div>
+</div>
+
+<div id = "LiveClassYouMayLike">
+<br><br><br>
+<div id="myCarousel5" class="carousel slide" data-interval="false" data-ride="carousel">
+<ol class="carousel-indicators">
+<li data-target="#myCarousel5" data-slide-to="0" class="active"></li>
+<li data-target="#myCarousel5" data-slide-to="1"></li>
+<li data-target="#myCarousel5" data-slide-to="2"></li>
+</ol>    
+<div class="carousel-inner">
+<div class="carousel-item active">
+<svg class="bd-placeholder-img" width="100%" height="100%" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid slice" focusable="false" role="img"></svg>
+<div class="carousel-caption"> 
+<div class="video1">  
+<div class = "column-25"> <a href = "https://www.facebook.com/events/1953557711455779/" target="_blank" rel="noopener noreferrer"> <img src="Images/broadwaybabies.jpg" id="image20"> </a> <h4 class = "ages0-3"> BroadwayBabies </h4> <p class = "text2"> Join Jamie every Wednesday at 3pm EST and meet some of your favorite Broadway stars! </p> </div> 
+<div class = "column-26"> <a href = "https://linktr.ee/buddhabellykidsyoga" target="_blank" rel="noopener noreferrer"> <img src="Images/BuddhaBellyKidsYoga.jpg" id="image20"> </a> <h4 class = "ages0-3"> BuddhaBellyKidsYoga </h4> <p class = "text2"> Live stream yoga classes dedicated to nurturing kids’ innate desire for movement and play. </p> </div>
+<div class = "column-26"> <a href = "https://www.instagram.com/wendymac/?hl=en" target="_blank" rel="noopener noreferrer"> <img src="Images/LiveDrawingClass.jpg" id="image20"> </a> <h4 class = "ages0-3"> LiveDrawingClass </h4> <p class = "text2"> Join Wendy Mac for live drawing classes Monday – Friday at 1pm EST. </p> </div>
+<div class = "column-27"> <a href = "https://minimelanie.com/pages/behind-the-scenes-with-mini-melanie" target="_blank" rel="noopener noreferrer"> <img src="Images/MiniMelanie.jpg" id="image20"> </a> <h4 class = "ages0-3"> MiniMelanie </h4> <p class = "text2"> Explore MiniMelanie for awesome baking ideas to make with your kids. </p> </div>
+</div>
+</div>
+</div>
+<div class="carousel-item">
+<svg class="bd-placeholder-img" width="100%" height="100%" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid slice" focusable="false" role="img"></svg>
+<div class="carousel-caption"> 
+<div class="video1">  
+<div class = "column-25"> <a href = "https://www.kennedy-center.org/education/mo-willems/" target="_blank" rel="noopener noreferrer"> <img src="Images/MoWillems.jpg" id="image20"> </a> <h4 class = "ages0-3"> MoWillems </h4> <p class = "text2"> Mo Willems invites you into his studio every day at 1pm EST to draw, doodle and explore new ways of writing. </p> </div>
+<div class = "column-26"> <a href = "https://www.facebook.com/pg/rocknessmusic/about/?ref=page_internal" target="_blank" rel="noopener noreferrer"> <img src="Images/rocknessmusic.jpg" id="image20"> </a> <h4 class = "ages0-3"> RocknessMusic </h4> <p class = "text2"> A modern music class for kids. Join real rock and roll musicians for live streamed classes Monday – Friday at 10am and 3pm EST. </p> </div> 
+<div class = "column-26"> <a href = "https://unionsquareplay.com" target="_blank" rel="noopener noreferrer"> <img src="Images/UnionSquarePlay.jpg" id="image20"> </a> <h4 class = "ages0-3"> UnionSquarePlay </h4> <p class = "text2"> Bringing play to families everywhere! Explore classes, online activities, interviews and more for the whole family. </p> </div>
+<div class = "column-27"> <a href = "https://www.varsitytutors.com/virtual-school-day" target="_blank" rel="noopener noreferrer"> <img src="Images/virtualschoolday.jpg" id="image20"> </a> <h4 class = "ages0-3"> VirtualSchoolDay </h4> <p class = "text2"> Over 100 free live K-12 classes available all day long intended to help parents fill their children’s day with enriched learning. </p> </div>
+</div>
+</div>
+</div>
+<div class="carousel-item">
+<svg class="bd-placeholder-img" width="100%" height="100%" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid slice" focusable="false" role="img"></svg>
+<div class="carousel-caption"> 
+<div class="video1">  
+<div class = "column-26"> <a href = "https://www.yoyoyogaschool.com" target="_blank" rel="noopener noreferrer"> <img src="Images/Yoyoyoga.png" id="image20"> </a> <h4 class = "ages0-3"> Yoyoyoga </h4> <p class = "text2"> Join Lisa for Movement, Mindfulness and Meditation. <br> Online yoga and meditation for you and your <br> children including yoga that can be done <br> from a chair. </p> </div>
+</div>
+</div>
+</div>
+</div>
+<br>
+<a class="carousel-control-prev" href="#myCarousel5" role="button" data-slide="prev">
+<span class="carousel-control-prev-icon" aria-hidden="true"></span>
+<span class="sr-only">Previous</span>
+</a>
+<a class="carousel-control-next" href="#myCarousel5" role="button" data-slide="next">
+<span class="carousel-control-next-icon" aria-hidden="true"></span>
+<span class="sr-only">Next</span>
+</a>
+</div>
 </div>
 </div>
 
