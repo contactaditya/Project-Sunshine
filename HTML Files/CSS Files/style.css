@@ -85,6 +85,43 @@ body {
   display: block;
 }
 
+.menu .icon {
+  display: none;
+}
+
+/* This is making the menu responsive */
+
+@media screen and (max-width: 600px) {
+  .menu a:not(:first-child), .dropdown .dropbtn {
+    display: none;
+  }
+  .menu a.icon {
+    float: right;
+    display: block;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .menu.responsive {position: relative;}
+  .menu.responsive .icon {
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+  .menu.responsive a {
+    float: none;
+    display: block;
+    text-align: left;
+  }
+  .menu.responsive .dropdown {float: none;}
+  .menu.responsive .dropdown-content {position: relative;}
+  .menu.responsive .dropdown .dropbtn {
+    display: block;
+    width: 100%;
+    text-align: left;
+  }
+}
+
 .searchTerm {
   text-indent: 35px;
 }
@@ -102,23 +139,6 @@ body {
   }
 }
 
-/* Styling the default Slick dots */
-	
-.slick-dots li.slick-active button {
-	background-color: white;
-}
-
-.dots {
-  height: 40px;
-  width: 40px;
-  background-color: silver;
-  border-radius: 100%;
-  display: inline-block;
-  justify-content: center;
-  margin: 30px;
-  text-align: center;
-}
-	
 p.text {
   font-family: 'Poppins';
   color: #ffffff;
@@ -152,6 +172,31 @@ p.text4 {
   color: #ffffff;
   font-size: 14px;
   padding-left: 30px;
+}
+
+p.text5 {
+  font-family: 'Poppins';
+  text-align: left;
+  color: #ffffff;
+  font-size: 15px;
+  padding-left: 25px;
+}
+
+p.text6 {
+  font-family: 'Poppins';
+  text-align: left;
+  color: #ffffff;
+  font-size: 15px;
+  padding-left: 50px;
+}
+
+p.text7 {
+  font-family: 'Poppins';
+  text-align: center;
+  color: #ffffff;
+  font-size: 16px;
+  margin: 0;
+  padding-top: 10px;
 }
 
 span.text {
@@ -214,7 +259,8 @@ p.card-text {
   color: black;
   font-size: 13px;
   text-align: center;
-  padding: 10px;
+  padding-left: 10px;
+  padding-right: 10px;
 }
 
 p.card-caption {
@@ -262,7 +308,7 @@ hr {
 }
 
 #image3 {
-  width: 205px;
+  width: 90%;
   height: 206px;
   padding-bottom: 10px;
 }
@@ -327,10 +373,11 @@ hr {
 }
 
 #image14 {
-	width: 300px;
+	width: 80%;
   height: 300px;
   display: block;
   margin: 0 auto;
+  padding-top: 30px;
 }
 
 #image15 {
@@ -435,7 +482,7 @@ hr {
 }
 
 .socialmediacampaignactivitykits {
-  padding-bottom: 10px;
+  padding-bottom: 20px;
   width: 100%;
   height: 160px;
   text-align: center;
@@ -443,12 +490,26 @@ hr {
 }
 
 .socialmedia ul {
-  float: left;
-  padding-left: 500px;
+  align-items: center;
+  justify-content: center;
 }
 
 .socialmedia li {
   float: left;
+  margin: 0 20px;
+  list-style-type: none;
+}
+
+.socialmedialist {
+  display: inline-block;
+}
+
+.socialmedialist ul {
+  align-items: center;
+  justify-content: center;
+}
+
+.socialmedialist li {
   margin: 0 20px;
   list-style-type: none;
 }
@@ -650,7 +711,7 @@ hr {
 
 .activitykitsrectangle {
   width: 100%;
-  height: 215px;
+  height: 200px;
   background-color: #23b839;
   text-align: center;
 }
@@ -694,22 +755,17 @@ hr {
 
  .column-1 {
     flex: 25%;
-    padding-top: 25px;
-    padding-left: 25px;
     background-color: #0fb4de;
     font-family: 'Poppins';
  }
 
  .column-2 {
     flex: 25%;
-    padding-top: 25px;
-    padding-left: 25px;
     background-color: #23b839;
  }
 
  .column-3 {
     flex: 20%;
-    padding: 15px;
     text-align: center;
     font-weight: bold; 
     color: black; 
@@ -717,8 +773,6 @@ hr {
 
  .column-4 {
   flex: 20%;
-  padding: 15px;
-  padding-left: 40px;
   text-align: center;
   font-weight: bold;  
   color: black; 
@@ -726,17 +780,13 @@ hr {
 
 .column-5 {
   flex: 20%;
-  padding: 15px;
-  padding-right: 75px;
   text-align: center;
   font-weight: bold;  
   color: black; 
 }
 
 .column-6 {
-  padding: 50px;
   flex: 50%;
-  text-align: left;  
 }
 
 .column-7 {
@@ -745,20 +795,16 @@ hr {
 
 .column-8 {
   padding-top: 10px;
-  padding-left: 20px;
   flex: 20%; 
 }
 
 .column-9 {
   padding-top: 10px;
-  padding-left: 15px;
   flex: 20%;
 }
 
 .column-10 {
   padding-top: 10px;
-  padding-left: 15px;
-  padding-right: 20px;
   flex: 20%;
 }
 
@@ -937,22 +983,17 @@ hr {
 }
 
 .column-43 {
-  padding-right: 50px;
-  padding-top: 25px;
   text-align: center;
 }
 
 .column-44 {
   text-align: center;
-  padding-top: 10px;
 }
 
 .column-45 {
   text-align: center;
-  padding-top: 10px;
   font-family: 'Poppins-Regular';
   font-size: 18px;
-  padding-right: 50px;
 }
 
 .column-46 {
@@ -965,7 +1006,6 @@ hr {
 
 .column-47 {
   text-align: center;
-  padding-top: 10px;
 }
 
 .column-48 {
@@ -994,7 +1034,7 @@ hr {
 
 .toprow {
   display: flex;
-  padding: 5px;
+  padding-top: 5px;
 }
 
 .imagerow {
@@ -1047,7 +1087,7 @@ hr {
     display: flex;
   }
   
-  h1 {
+  h1.index {
     font-family: 'Poppins';
     font-size: 35px;
     font-weight: 600;
@@ -1056,6 +1096,8 @@ hr {
     line-height: 1.3;
     letter-spacing: normal;
     color: #ffffff;
+    padding-top: 50px;
+    padding-left: 50px;
   }
 
   h1.activitykits {
@@ -1093,6 +1135,8 @@ hr {
   h3.index {
     font-size: 32px;
     margin: 0;
+    padding-top: 25px;
+    padding-left: 25px;
   }
 
   h3.ages0-3 {
@@ -1256,7 +1300,6 @@ hr {
     text-align: center;
     font-size: 18px;
     display: inline;
-    padding-right: 25px;
   }
 
   h4.card-title {

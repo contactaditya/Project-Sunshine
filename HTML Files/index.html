@@ -8,6 +8,17 @@
 <link rel = "stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 <title> Patient Resources </title>
 <link rel="stylesheet" href="CSS Files/style.css">	
+<script>
+    function myFunction() {
+      var x = document.getElementById("menu");
+      if (x.className === "menu") {
+        x.className += " responsive";
+      } else {
+        x.className = "menu";
+      }
+    }
+</script>
+    
 </head>
 <body>
 <div class = "toprow">
@@ -20,7 +31,7 @@
 </div>
 </div>
 <div class = "toprow">
-<div class="menu">
+<div class="menu" id="menu">
 <a class="active" href="index.html"> HOME </a> 
 <a href="psjoy.html">PS JOY </a> 
 <a href="activitykits.html">ACTIVITY KITS </a> 
@@ -32,24 +43,24 @@
 <a href="ages 8-12.html"> AGES 8-12 </a> 
 <a href="teens.html"> TEENS </a> 
 <a href="caregivers.html"> CAREGIVERS </a> 
-</ul>
 </div>
 </div>
+<a href="javascript:void(0);" class="icon" onclick="myFunction()"> <i class="fa fa-bars"> </i> </a>
 </div>
 </div>
 
 <div class = "row1">
 <br><br>
-<div class = "column-6"> <h1> REMOTE PATIENT RESOURCES </h1> <p> Check out the resources below for online videos and activities for pediatric patients! </p> </div>
+<div class = "column-6"> <h1 class = "index"> REMOTE PATIENT RESOURCES </h1> <p class = "text6"> Check out the resources below for online videos and activities for pediatric patients! </p> </div>
 <div class = "column-7"> <img src="Images/img_5434.jpg" id="image6"> </div>
 </div>
 
 
 <div class = "row">
 <div class = "column"> <a href="psjoy.html"> <img src="Images/psjoy.png" id="image2"> </a> </div>
-<div class = "column-1"> <h3 class = "index"> #PSJOY </h3> Project Sunshine is excited to <br> launch our new campaign #PSJoy <br> to bring sunshine and laughs to <br> isolated pedriatric patients with <br> special videos from some of our <br> funniest friends and partners. <br><br> <img src="Images/group.png" id="image5"> </div>
+<div class = "column-1"> <h3 class = "index"> #PSJOY </h3> <p class = "text5"> Project Sunshine is excited to <br> launch our new campaign #PSJoy <br> to bring sunshine and laughs to <br> isolated pedriatric patients with <br> special videos from some of our <br> funniest friends and partners. <br><br> <img src="Images/group.png" id="image5"> </p> </div>
 <div class = "column"> <a href="activitykits.html"> <img src="Images/activitykits.png" id="image2"> </a> </div>
-<div class = "column-2"> <h3 class = "index"> ACTIVITY KITS </h3> If you have been given a Project <br> Sunshine Activity Kit, you can watch <br> a video about your Activity Kit. <br><br> <img src="Images/group.png" id="image5"> </div> 
+<div class = "column-2"> <h3 class = "index"> ACTIVITY KITS </h3> <p class = "text5"> If you have been given a Project <br> Sunshine Activity Kit, you can watch <br> a video about your Activity Kit. <br><br> <img src="Images/group.png" id="image5"> </p> </div> 
 </div>
 
 
@@ -62,7 +73,7 @@
 </div>
 
 <div class = "socialmedia">
-<ul>
+<ul class = "socialmedialist">
 <li> <a href="https://www.facebook.com/projectsunshineUSA/"> <img src="Images/Facebook.png" id="image4"> </a> </li>
 <li> <a href="https://twitter.com/projectsunshine?lang=en"> <img src="Images/Twitter.png" id="image4"> </a> </li>
 <li> <a href="https://www.instagram.com/projectsunshine/"> <img src="Images/Instagram.png" id="image4"> </a> </li>
