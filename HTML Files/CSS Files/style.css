@@ -187,7 +187,7 @@ p.text6 {
   text-align: left;
   color: #ffffff;
   font-size: 15px;
-  padding-left: 50px;
+  padding-left: 25px;
 }
 
 p.text7 {
@@ -325,7 +325,7 @@ hr {
 }
 
 #image6 {
-  width: auto;
+  width: 100%;
   height: 400px;
 }
 
@@ -786,11 +786,11 @@ hr {
 }
 
 .column-6 {
-  flex: 50%;
+  flex: 30%;
 }
 
 .column-7 {
-  flex: 50%;
+  flex: 70%;
 }
 
 .column-8 {
@@ -1097,7 +1097,7 @@ hr {
     letter-spacing: normal;
     color: #ffffff;
     padding-top: 50px;
-    padding-left: 50px;
+    padding-left: 25px;
   }
 
   h1.activitykits {
