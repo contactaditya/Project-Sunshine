@@ -14,7 +14,8 @@ body {
 /* Navbar container */
 .menu {
   font-family: 'Poppins';
-  padding-left: 250px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 /* Links inside the navbar */
@@ -180,6 +181,7 @@ p.text5 {
   color: #ffffff;
   font-size: 15px;
   padding-left: 25px;
+  padding-right: 25px;
 }
 
 p.text6 {
@@ -299,7 +301,6 @@ hr {
 #image1 {
 	width: 173px;
   height: 115px;
-  padding-left: 450px;
 }
 
 #image2 {
@@ -1033,6 +1034,13 @@ hr {
 }
 
 .toprow {
+  display: flex;
+  padding-top: 5px;
+  align-items: center;
+  justify-content: center;
+}
+
+.menurow {
   display: flex;
   padding-top: 5px;
 }
