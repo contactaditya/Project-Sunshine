@@ -1033,6 +1033,10 @@ hr {
   flex: 20%;
 }
 
+.column-52 {
+  flex: 5%;
+}
+
 .toprow {
   display: flex;
   padding-top: 5px;
