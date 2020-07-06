@@ -406,7 +406,7 @@ hr {
 }
 
 #image20 {
-  width: 212px;
+  width: 90%;
   height: 261px;
 }
 
@@ -423,7 +423,7 @@ hr {
 }
 
 #image23 {
-  width: 212px;
+  width: 90%;
   height: 262px;
 }
 
@@ -462,7 +462,12 @@ hr {
 }
 
 #image29 {
-  width: 550px;
+  width: 50%;
+  height: 340px;
+}
+
+#image30 {
+  width: 90%;
   height: 340px;
 }
 
@@ -947,21 +952,20 @@ hr {
 
 .column-37 {
   padding-top: 10px;
-  padding-left: 100px;
-  flex: 33%; 
+  flex: 33%;
+  text-align: center;
 }
 
 .column-38 {
   padding-top: 10px;
-  padding-left: 10px;
   flex: 33%;
+  text-align: center;
 }
 
 .column-39 {
   padding-top: 10px;
-  padding-left: 10px;
-  padding-right: 100px;
   flex: 33%;
+  text-align: center;
 }
 
 .column-40 {
@@ -1035,6 +1039,12 @@ hr {
 
 .column-52 {
   flex: 5%;
+}
+
+.column-53 {
+  padding-top: 10px;
+  flex: 50%;
+  text-align: center;
 }
 
 .toprow {
