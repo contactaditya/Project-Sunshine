@@ -411,13 +411,13 @@ hr {
 }
 
 #image21 {
-  width: 100px;
+  width: 10%;
   height: 100px;
   float: left;
 }
 
 #image22 {
-  width: 100px;
+  width: 10%;
   height: 100px;
   float: right;
 }
@@ -428,13 +428,13 @@ hr {
 }
 
 #image24 {
-  width: 130px;
+  width: 10%;
   height: 150px;
   float: left;
 }
 
 #image25 {
-  width: 130px;
+  width: 10%;
   height: 150px;
   float: right;
 }
@@ -1122,6 +1122,21 @@ hr {
 
   .books {
     display: flex;
+  }
+
+  .bookpictures {
+    display: block;
+    max-width: 100%;
+  }
+
+  .zoopictures {
+    display: block;
+    max-width: 100%;
+  }
+
+  .emotionalwellbeingpictures {
+    display: block;
+    max-width: 100%;
   }
   
   h1.index {
