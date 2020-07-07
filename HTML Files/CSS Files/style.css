@@ -208,6 +208,12 @@ span.text {
   font-size: 16px;
 }
 
+@media screen and (max-width: 800px) {
+  span.text {
+    font-size: 9px;
+  }
+}
+
 span.text1 {
   font-family: 'Poppins';
   padding-left: 405px;
@@ -282,6 +288,13 @@ p.card-caption {
   display: flex;
 }
 
+.video2 {
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
 .image {
   text-align: left;
 }
@@ -331,8 +344,8 @@ hr {
 }
 
 #image7 {
-  width: 247px;
-  height: 80px;
+  width: 8%;
+  height: auto;
 }
 
 #image8 {
@@ -1010,7 +1023,8 @@ hr {
 }
 
 .column-47 {
-  text-align: center;
+  margin: 0 auto; 
+  width: 50%;
 }
 
 .column-48 {
@@ -1045,6 +1059,25 @@ hr {
   padding-top: 10px;
   flex: 50%;
   text-align: center;
+}
+
+.column-54 {
+  padding-top: 10px;
+  padding-left: 15px;
+  flex: 20%; 
+}
+
+.column-55 {
+  padding-top: 10px;
+  padding-left: 15px;
+  flex: 20%;
+}
+
+.column-56 {
+  padding-top: 10px;
+  padding-left: 15px;
+  padding-right: 15px;
+  flex: 20%;
 }
 
 .iframe-container{
@@ -1158,10 +1191,26 @@ hr {
     display: inline;
   }
 
+  @media screen and (max-width: 800px) {
+    h1.activitykits {
+      text-align: center;
+      font-size: 17px;
+      display: inline;
+    }
+  }
+
   h1.psjoy {
     text-align: center;
     font-size: 35px;
     display: inline;
+  }
+
+  @media screen and (max-width: 800px) {
+    h1.psjoy {
+      text-align: center;
+      font-size: 17px;
+      display: inline;
+    }
   }
  
   h2 {
