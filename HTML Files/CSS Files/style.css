@@ -771,6 +771,24 @@ hr {
   background-color: #f49f0b;
 }
 
+@media screen and (max-width: 1000px) {
+  .activitykitscardsrectangle {
+    display: none;
+  }
+}
+
+.activitykitscardsrectangletablet {
+  width: 100%;
+  height: 3800px;
+  background-color: #f49f0b;
+}
+
+@media screen and (min-width: 1000px) {
+  .activitykitscardsrectangletablet {
+    display: none;
+  }
+}
+
 .button {
   width: 250px;
   height: 30px;
@@ -1124,6 +1142,17 @@ hr {
   padding-left: 15px;
   padding-right: 15px;
   flex: 20%;
+}
+
+.column-57 {
+  padding-left: 50px;
+  flex: 50%;
+}
+
+.column-58 {
+  padding-left: 50px;
+  padding-right: 50px;
+  flex: 50%;
 }
 
 .iframe-container{
