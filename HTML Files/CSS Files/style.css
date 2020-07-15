@@ -219,7 +219,7 @@ span.text {
 
 @media screen and (max-width: 800px) {
   span.text {
-    font-size: 9px;
+    font-size: 10px;
   }
 }
 
@@ -517,9 +517,8 @@ hr {
 }
 
 .socialmediacampaignpsjoy {
-  padding-bottom: 10px;
   width: 100%;
-  height: 140px;
+  height: auto;
   text-align: center;
   background-color: #0fb4de;
 }
@@ -565,7 +564,7 @@ hr {
 
 .psjoyrectangle {
   width: 100%;
-  height: 175px;
+  height: auto;
   background-color: #23b839;
   text-align: center;
 }
@@ -767,14 +766,8 @@ hr {
 
 .activitykitscardsrectangle {
   width: 100%;
-  height: 3000px;
+  height: 3100px;
   background-color: #f49f0b;
-}
-
-@media screen and (max-width: 1000px) {
-  .activitykitscardsrectangle {
-    display: none;
-  }
 }
 
 .activitykitscardsrectangletablet {
@@ -783,9 +776,52 @@ hr {
   background-color: #f49f0b;
 }
 
-@media screen and (min-width: 1000px) {
+.activitykitscardsrectanglemobile {
+  width: 100%;
+  height: 7100px;
+  background-color: #f49f0b;
+}
+
+@media screen and (max-width : 1920px) {
   .activitykitscardsrectangletablet {
     display: none;
+  }
+
+  .activitykitscardsrectanglemobile {
+    display: none;
+  }
+
+  .activitykitscardsrectangle {
+    display: block;
+  }
+
+}
+
+@media screen and (min-width : 601px) and (max-width : 1024px) {
+  .activitykitscardsrectangle {
+    display: none;
+  }
+
+  .activitykitscardsrectanglemobile {
+    display: none;
+  }
+
+  .activitykitscardsrectangletablet {
+    display: block;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .activitykitscardsrectangle {
+    display: none;
+  }
+  
+  .activitykitscardsrectangletablet {
+    display: none;
+  }
+
+  .activitykitscardsrectanglemobile {
+    display: block;
   }
 }
 
@@ -1086,15 +1122,19 @@ hr {
   font-family: 'Poppins';
   color: #ffffff;
   padding-top: 10px;
+  font-size: 16px;
+  margin: 0 auto; 
+  width: 40%;
 }
 
 @media screen and (max-width: 800px) {
-  column-48 {
+  .column-48 {
     text-align: center;
-    font-size: 17px;
-    display: inline;
+    font-size: 10px;
     padding-left: 0;
     padding-top: 0;
+    margin: 0 auto; 
+    width: 40%;
   }
 }
 
@@ -1152,6 +1192,10 @@ hr {
 .column-58 {
   padding-left: 50px;
   padding-right: 50px;
+  flex: 50%;
+}
+
+.column-59 {
   flex: 50%;
 }
 
@@ -1472,16 +1516,14 @@ hr {
   h4 {
     text-align: center;
     margin: 0;
-    padding-top: 10px;
+    font-size: 16px;
   }
 
-  @media screen and (max-width: 600px) {
+  @media screen and (max-width: 800px) {
     h4 {
       text-align: center;
       margin: 0;
-      padding-top: 10px;
       font-size: 12px;
-
     }
   }
 
