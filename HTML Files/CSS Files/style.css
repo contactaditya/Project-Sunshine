@@ -184,6 +184,17 @@ p.text5 {
   padding-right: 25px;
 }
 
+@media screen and (max-width: 800px) {
+  p.text5 {
+    font-family: 'Poppins';
+    text-align: left;
+    color: #ffffff;
+    font-size: 12px;
+    padding-left: 25px;
+    padding-right: 25px;
+  }
+}
+
 p.text6 {
   font-family: 'Poppins';
   text-align: left;
@@ -192,14 +203,24 @@ p.text6 {
   padding-left: 25px;
 }
 
-@media screen and (max-width: 800px) {
+@media screen and (min-width : 601px) and (max-width : 1024px) {  
   p.text6 {
     text-align: center;
-    font-size: 10px;
+    font-size: 14px;
     font-family: 'Poppins';
     padding-left: 0;
   }
 }
+  
+@media screen and (max-width: 600px) {
+  p.text6 {
+    text-align: center;
+    font-size: 11px;
+    font-family: 'Poppins';
+    padding-left: 0;
+  }
+}
+
 
 p.text7 {
   font-family: 'Poppins';
@@ -261,6 +282,10 @@ span.text4 {
   line-height: 3.54;
   letter-spacing: 1.8px;
   display: inline;
+}
+
+span.caption {
+  display: block;
 }
 
 p.card-heading {
@@ -328,6 +353,7 @@ hr {
 #image2 {
   width: 100%;
   height: 340px;
+  overflow: hidden;
 }
 
 #image3 {
@@ -506,6 +532,33 @@ hr {
 #image33 {
   width: 90%;
   height: 325px;
+}
+
+#image34 {
+  width: 50%;
+  height: auto;
+  padding-bottom: 10px;
+  padding-top: 10px;
+}
+
+#image35 {
+  width: 50%;
+  height: auto;
+  padding-bottom: 10px;
+  padding-top: 25px;
+}
+
+#image36 {
+  width: 100%;
+  height: auto;
+  overflow: hidden;
+  display: block;
+}
+
+#image37 {
+  width: 100%;
+  height: 340px;
+  overflow: hidden;
 }
 
 .socialmedia {
@@ -886,22 +939,9 @@ hr {
   flex: 30%;
 }
 
-@media screen and (max-width: 600px) {
-  .column-6 {
-    flex: 100%;
-  }
-}
-
 .column-7 {
   flex: 70%;
 }
-
-@media screen and (max-width: 600px) {
-  .column-7 {
-    display: none! important;
-  }
-}
-
 
 .column-8 {
   padding-top: 10px;
@@ -1199,6 +1239,52 @@ hr {
   flex: 50%;
 }
 
+.column-60 {
+  flex: 50%;
+}
+
+.column-61 {
+  flex: 50%;
+  background-color: #0fb4de;
+  font-family: 'Poppins';
+}
+
+.column-62 {
+  flex: 50%;
+  background-color: #23b839;
+}
+
+.column-63 {
+  flex: 20%;
+  text-align: center;
+  font-weight: bold;  
+  color: black; 
+}
+
+.column-64 {
+  flex: 33%;
+  text-align: center;
+  font-weight: bold;  
+  color: black; 
+}
+
+.column-65 {
+  flex: 50%;
+  text-align: center;
+  font-weight: bold;  
+  color: black; 
+}
+
+.column-66 {
+  text-align: center;
+  font-weight: bold;  
+  color: black; 
+}
+
+.column-67 {
+  flex: 100%;
+}
+
 .iframe-container{
   position: relative;
   height: 0;
@@ -1254,11 +1340,68 @@ hr {
     height: 340px;
   }
 
+  .row4 {
+    display: flex;
+    height: 340px;
+  }
+
+  .row5 {
+    display: flex;
+    height: 340px;
+  }
+
+  .row6 {
+    display: flex;
+    height: 340px;
+  }
+
+  @media screen and (max-width : 1920px) {
+    .row4 {
+      display: flex;
+    }
+  
+    .row5 {
+      display: none;
+    }
+  
+    .row6 {
+      display: none;
+    }
+  }
+
+  @media screen and (min-width : 601px) and (max-width : 1024px) {
+    .row4 {
+      display: none;
+    }
+  
+    .row5 {
+      display: flex;
+    }
+  
+    .row6 {
+      display: flex;
+    }
+  }
+    
+  @media screen and (max-width: 600px) {
+    .row4 {
+      display: none;
+    }
+  
+    .row5 {
+      display: flex;
+    }
+  
+    .row6 {
+      display: flex;
+    }
+  }
+
   .row1 {
     display: flex;
     background-color: #f49f0b;
     width: 100%;
-    height: auto;
+    height: 400px;
   }  
   
   .row2 {
@@ -1270,6 +1413,153 @@ hr {
 
   .row3 {
     display: flex;
+  }
+
+  .row7 {
+    padding-top: 40px;
+    display: flex;
+    padding-bottom: 40px;
+    width: 100%;
+  }
+
+  .row8 {
+    padding-top: 30px;
+    display: flex;
+    padding-bottom: 30px;
+    margin: 0 auto;
+    width: 80%;
+  }
+
+  .row9 {
+    padding-top: 30px;
+    display: flex;
+    padding-bottom: 30px;
+    margin: 0 auto;
+    width: 52.8%;
+  }
+
+  .row10 {
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 40px;
+    margin: 0 auto;
+    width: 80%;
+  }
+
+  @media screen and (max-width : 1920px) {
+    .row7 {
+      display: flex;
+    }
+  
+    .row8 {
+      display: none;
+    }
+  
+    .row9 {
+      display: none;
+    }
+
+    .row10 {
+      display: none;
+    }
+  }
+
+  @media screen and (min-width : 601px) and (max-width : 1024px) {
+    .row7 {
+      display: none;
+    }
+  
+    .row8 {
+      display: flex;
+    }
+  
+    .row9 {
+      display: flex;
+    }
+
+    .row10 {
+      display: none;
+    }
+  }
+  
+  @media screen and (max-width: 600px) {
+    .row7 {
+      display: none;
+    }
+  
+    .row8 {
+      display: none;
+    }
+  
+    .row9 {
+      display: none;
+    }
+
+    .row10 {
+      display: flex;
+    }
+  }
+
+  .row11 {
+    display: flex;
+    background-color: #f49f0b;
+    width: 100%;
+    height: 400px;
+  }  
+
+  .row12 {
+    display: flex;
+    background-color: #f49f0b;
+    width: 100%;
+    height: auto;
+  }  
+
+  .row13 {
+    display: flex;
+    width: 100%;
+    height: auto;
+  } 
+
+  @media screen and (max-width : 1920px) {
+    .row11 {
+      display: flex;
+    }
+  
+    .row12 {
+      display: none;
+    }
+  
+    .row13 {
+      display: none;
+    }
+  }
+
+  @media screen and (min-width : 601px) and (max-width : 1024px) {
+    .row11 {
+      display: none;
+    }
+  
+    .row12 {
+      display: flex;
+    }
+  
+    .row13 {
+      display: flex;
+    }
+  }
+  
+  @media screen and (max-width: 600px) {
+    .row11 {
+      display: none;
+    }
+  
+    .row12 {
+      display: flex;
+    }
+  
+    .row13 {
+      display: flex;
+    }
   }
 
   .books {
@@ -1304,15 +1594,32 @@ hr {
     padding-left: 25px;
   }
 
-  @media screen and (max-width: 800px) {
-    h1.index {
-      text-align: center;
-      font-size: 17px;
-      display: inline;
-      padding-left: 0;
-      padding-top: 0;
-    }
+@media screen and (min-width : 601px) and (max-width : 1024px) {  
+  h1.index {
+    text-align: center;
+    font-size: 28px;
+    display: inline;
+    padding-left: 0;
+    padding-top: 0;
   }
+}
+  
+@media screen and (max-width: 600px) {
+  h1.index {
+    text-align: center;
+    font-size: 17px;
+    display: inline;
+    padding-left: 0;
+    padding-top: 0;
+  }
+}
+
+@media screen and (min-width : 601px) and (max-width : 1024px) {  
+  .heading {
+    text-align: center;
+    padding-top: 10px;
+  }
+}
 
 @media screen and (max-width: 600px) {
   .heading {
@@ -1374,6 +1681,15 @@ hr {
     margin: 0;
     padding-top: 25px;
     padding-left: 25px;
+  }
+
+  @media screen and (max-width: 600px) {
+    h3.index {
+      font-size: 18px;
+      margin: 0;
+      padding-top: 25px;
+      padding-left: 25px;
+    }
   }
 
   h3.ages0-3 {
