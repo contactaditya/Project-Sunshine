@@ -231,6 +231,18 @@ p.text7 {
   padding-top: 10px;
 }
 
+@media screen and (max-width: 600px) {
+  p.text7 {
+    font-size: 12px;
+  }
+}
+
+@media screen and (min-width : 601px) and (max-width : 1024px) {
+  p.text7 {
+    font-size: 14px;
+  }
+}
+
 span.text {
   font-family: 'Poppins';
   color: #ffffff;
@@ -238,9 +250,15 @@ span.text {
   font-size: 16px;
 }
 
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 600px) {
   span.text {
-    font-size: 10px;
+    font-size: 12px;
+  }
+}
+
+@media screen and (min-width : 601px) and (max-width : 1024px) {
+  span.text {
+    font-size: 14px;
   }
 }
 
@@ -327,6 +345,14 @@ p.card-caption {
   display: flex;
   align-items: center;
   justify-content: center;
+}
+
+.video3 {
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-top: 20px;
 }
 
 .image {
@@ -628,6 +654,61 @@ hr {
   background-color: #f49f0b;
 }
 
+.psjoyvideorectangletablet {
+  width: 100%;
+  height: 2250px;
+  background-color: #f49f0b;
+}
+
+.psjoyvideorectanglemobile {
+  width: 100%;
+  height: 3800px;
+  background-color: #f49f0b;
+}
+
+@media screen and (max-width : 1920px) {
+  .psjoyvideorectangle {
+    display: block;
+  }
+
+  .psjoyvideorectangletablet {
+    display: none;
+  }
+
+  .psjoyvideorectanglemobile {
+    display: none;
+  }
+
+}
+
+@media screen and (min-width : 601px) and (max-width : 1024px) {
+  .psjoyvideorectangle {
+    display: none;
+  }
+
+  .psjoyvideorectangletablet {
+    display: block;
+  }
+
+  .psjoyvideorectanglemobile {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .psjoyvideorectangle {
+    display: none;
+  }
+  
+  .psjoyvideorectangletablet {
+    display: none;
+  }
+
+  .psjoyvideorectanglemobile {
+    display: block;
+  }
+}
+
 .ages0-3rectangle {
   width: 100%;
   height: 600px;
@@ -817,6 +898,60 @@ hr {
   background-color: #0fb4de;
 }
 
+.activitykitsvideorectangletablet {
+  width: 100%;
+  height: 1300px;
+  background-color: #0fb4de;
+}
+
+.activitykitsvideorectanglemobile {
+  width: 100%;
+  height: 2100px;
+  background-color: #0fb4de;
+}
+
+@media screen and (max-width : 1920px) {
+  .activitykitsvideorectangletablet {
+    display: none;
+  }
+
+  .activitykitsvideorectanglemobile {
+    display: none;
+  }
+
+  .activitykitsvideorectangle {
+    display: block;
+  }
+}
+
+@media screen and (min-width : 601px) and (max-width : 1024px) {
+  .activitykitsvideorectangletablet {
+    display: block;
+  }
+
+  .activitykitsvideorectanglemobile {
+    display: none;
+  }
+
+  .activitykitsvideorectangle {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .activitykitsvideorectangletablet {
+    display: none;
+  }
+
+  .activitykitsvideorectanglemobile {
+    display: block;
+  }
+
+  .activitykitsvideorectangle {
+    display: none;
+  }
+}
+
 .activitykitscardsrectangle {
   width: 100%;
   height: 3100px;
@@ -825,13 +960,13 @@ hr {
 
 .activitykitscardsrectangletablet {
   width: 100%;
-  height: 3800px;
+  height: 3900px;
   background-color: #f49f0b;
 }
 
 .activitykitscardsrectanglemobile {
   width: 100%;
-  height: 7100px;
+  height: 7000px;
   background-color: #f49f0b;
 }
 
@@ -887,6 +1022,22 @@ hr {
   font-family: 'Poppins';
   color: #0fb4de;
   font-size: 14px;
+}
+
+@media screen and (min-width : 601px) and (max-width : 1024px) {
+  .button {
+    width: 225px;
+    height: 30px;
+    font-size: 13px;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .button {
+    width: 200px;
+    height: 30px;
+    font-size: 12px;
+  }
 }
 
 .card {
@@ -1164,17 +1315,28 @@ hr {
   padding-top: 10px;
   font-size: 16px;
   margin: 0 auto; 
-  width: 40%;
+  width: 60%;
 }
 
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 600px) {
   .column-48 {
     text-align: center;
-    font-size: 10px;
+    font-size: 12px;
     padding-left: 0;
     padding-top: 0;
     margin: 0 auto; 
-    width: 40%;
+    width: 60%;
+  }
+}
+
+@media screen and (min-width : 601px) and (max-width : 1024px) {
+  .column-48 {
+    text-align: center;
+    font-size: 14px;
+    padding-left: 0;
+    padding-top: 0;
+    margin: 0 auto; 
+    width: 60%;
   }
 }
 
@@ -1648,10 +1810,18 @@ hr {
     display: inline;
   }
 
-  @media screen and (max-width: 800px) {
+  @media screen and (max-width: 600px) {
     h1.psjoy {
       text-align: center;
       font-size: 17px;
+      display: inline;
+    }
+  }
+  
+  @media screen and (min-width : 601px) and (max-width : 1024px) {
+    h1.psjoy {
+      text-align: center;
+      font-size: 28px;
       display: inline;
     }
   }
@@ -1850,6 +2020,18 @@ hr {
     font-size: 20px;
   }
 
+  @media screen and (max-width: 600px) {
+    h4.psjoy {
+      font-size: 14px;
+    }
+  }
+  
+  @media screen and (min-width : 601px) and (max-width : 1024px) {
+    h4.psjoy {
+      font-size: 17px;
+    }
+  }
+
   h4.activitykits {
     text-align: center;
     padding-left: 350px;
@@ -1859,8 +2041,20 @@ hr {
 
   h4.activitykits1 {
     text-align: center;
-    font-size: 18px;
+    font-size: 20px;
     display: inline;
+  }
+
+  @media screen and (max-width: 600px) {
+    h4.activitykits1 {
+      font-size: 14px;
+    }
+  }
+  
+  @media screen and (min-width : 601px) and (max-width : 1024px) {
+    h4.activitykits1 {
+      font-size: 17px;
+    }
   }
 
   h4.card-title {
