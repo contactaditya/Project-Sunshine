@@ -540,6 +540,12 @@ hr {
   height: 340px;
 }
 
+@media screen and (max-width: 600px) {
+  #image29 {
+    width: 80%;
+  }
+}
+
 #image30 {
   width: 90%;
   height: 340px;
@@ -753,6 +759,60 @@ hr {
   background-color: #0fb4de;
 }
 
+.ages0-3booksrectangletablet {
+  width: 100%;
+  height: 800px;
+  background-color: #0fb4de;
+}
+
+.ages0-3booksrectanglemobile {
+  width: 100%;
+  height: 800px;
+  background-color: #0fb4de;
+}
+
+@media screen and (max-width : 1920px) {
+  .ages0-3booksrectangletablet {
+    display: none;
+  }
+
+  .ages0-3booksrectanglemobile {
+    display: none;
+  }
+
+  .ages0-3booksrectangle {
+    display: block;
+  }
+}
+
+@media screen and (min-width : 601px) and (max-width : 1024px) {
+  .ages0-3booksrectangletablet {
+    display: block;
+  }
+
+  .ages0-3booksrectanglemobile {
+    display: none;
+  }
+
+  .ages0-3booksrectangle {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .ages0-3booksrectangletablet {
+    display: none;
+  }
+
+  .ages0-3booksrectanglemobile {
+    display: block;
+  }
+
+  .ages0-3booksrectangle {
+    display: none;
+  }
+}
+
 .ages4-7booksrectangle {
   width: 100%;
   height: 800px;
@@ -801,6 +861,60 @@ hr {
   background-color: #ffc800;
 }
 
+.ages0-3tvchannelsandeducationalgamesrectangletablet {
+  width: 100%;
+  height: 700px;
+  background-color: #ffc800;
+}
+
+.ages0-3tvchannelsandeducationalgamesrectanglemobile {
+  width: 100%;
+  height: 700px;
+  background-color: #ffc800;
+}
+
+@media screen and (max-width : 1920px) {
+  .ages0-3tvchannelsandeducationalgamesrectangletablet {
+    display: none;
+  }
+
+  .ages0-3tvchannelsandeducationalgamesrectanglemobile {
+    display: none;
+  }
+
+  .ages0-3tvchannelsandeducationalgamesrectangle {
+    display: block;
+  }
+}
+
+@media screen and (min-width : 601px) and (max-width : 1024px) {
+  .ages0-3tvchannelsandeducationalgamesrectangletablet {
+    display: block;
+  }
+
+  .ages0-3tvchannelsandeducationalgamesrectanglemobile {
+    display: none;
+  }
+
+  .ages0-3tvchannelsandeducationalgamesrectangle {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .ages0-3tvchannelsandeducationalgamesrectangletablet {
+    display: none;
+  }
+
+  .ages0-3tvchannelsandeducationalgamesrectanglemobile {
+    display: block;
+  }
+
+  .ages0-3tvchannelsandeducationalgamesrectangle {
+    display: none;
+  }
+}
+
 .ages4-7tvchannelsandeducationalgamesrectangle {
   width: 100%;
   height: 700px;
@@ -831,6 +945,60 @@ hr {
   background-color: #f49f0b;
 }
 
+.ages0-3musicrectangletablet {
+  width: 100%;
+  height: 700px;
+  background-color: #f49f0b;
+}
+
+.ages0-3musicrectanglemobile {
+  width: 100%;
+  height: 700px;
+  background-color: #f49f0b;
+}
+
+@media screen and (max-width : 1920px) {
+  .ages0-3musicrectangletablet {
+    display: none;
+  }
+
+  .ages0-3musicrectanglemobile {
+    display: none;
+  }
+
+  .ages0-3musicrectangle {
+    display: block;
+  }
+}
+
+@media screen and (min-width : 601px) and (max-width : 1024px) {
+  .ages0-3musicrectangletablet {
+    display: block;
+  }
+
+  .ages0-3musicrectanglemobile {
+    display: none;
+  }
+
+  .ages0-3musicrectangle {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .ages0-3musicrectangletablet {
+    display: none;
+  }
+
+  .ages0-3musicrectanglemobile {
+    display: block;
+  }
+
+  .ages0-3musicrectangle {
+    display: none;
+  }
+}
+
 .ages4-7musicrectangle {
   width: 100%;
   height: 700px;
@@ -841,6 +1009,60 @@ hr {
   width: 100%;
   height: 750px;
   background-color: #23b839;
+}
+
+.ages0-3onlinemuseumsandzoosrectangletablet {
+  width: 100%;
+  height: 750px;
+  background-color: #23b839;
+}
+
+.ages0-3onlinemuseumsandzoosrectanglemobile {
+  width: 100%;
+  height: 750px;
+  background-color: #23b839;
+}
+
+@media screen and (max-width : 1920px) {
+  .ages0-3onlinemuseumsandzoosrectangletablet {
+    display: none;
+  }
+
+  .ages0-3onlinemuseumsandzoosrectanglemobile {
+    display: none;
+  }
+
+  .ages0-3onlinemuseumsandzoosrectangle {
+    display: block;
+  }
+}
+
+@media screen and (min-width : 601px) and (max-width : 1024px) {
+  .ages0-3onlinemuseumsandzoosrectangletablet {
+    display: block;
+  }
+
+  .ages0-3onlinemuseumsandzoosrectanglemobile {
+    display: none;
+  }
+
+  .ages0-3onlinemuseumsandzoosrectangle {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .ages0-3onlinemuseumsandzoosrectangletablet {
+    display: none;
+  }
+
+  .ages0-3onlinemuseumsandzoosrectanglemobile {
+    display: block;
+  }
+
+  .ages0-3onlinemuseumsandzoosrectangle {
+    display: none;
+  }
 }
 
 .ages4-7onlinemuseumsandzoosrectangle {
