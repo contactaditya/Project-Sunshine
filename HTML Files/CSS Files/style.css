@@ -965,7 +965,7 @@ hr {
 .ages4-7tabletappsandonlinegamesrectangle {
   width: 100%;
   height: 625px;
-  background-color: #0fb4de;
+  background-color: #ffc800;
 }
 
 .ages8-12booksrectangle {
@@ -974,10 +974,118 @@ hr {
   background-color: #0fb4de;
 }
 
+.ages8-12booksrectangletablet {
+  width: 100%;
+  height: 790px;
+  background-color: #0fb4de;
+}
+
+.ages8-12booksrectanglemobile {
+  width: 100%;
+  height: 785px;
+  background-color: #0fb4de;
+}
+
+@media screen and (max-width : 1920px) {
+  .ages8-12booksrectangletablet {
+    display: none;
+  }
+
+  .ages8-12booksrectanglemobile {
+    display: none;
+  }
+
+  .ages8-12booksrectangle {
+    display: block;
+  }
+}
+
+@media screen and (min-width : 601px) and (max-width : 1024px) {
+  .ages8-12booksrectangletablet {
+    display: block;
+  }
+
+  .ages8-12booksrectanglemobile {
+    display: none;
+  }
+
+  .ages8-12booksrectangle {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .ages8-12booksrectangletablet {
+    display: none;
+  }
+
+  .ages8-12booksrectanglemobile {
+    display: block;
+  }
+
+  .ages8-12booksrectangle {
+    display: none;
+  }
+}
+
 .ages8-12tabletappsandonlinegamesrectangle {
   width: 100%;
   height: 625px;
   background-color: #0fb4de;
+}
+
+.ages8-12tabletappsandonlinegamesrectangletablet {
+  width: 100%;
+  height: 625px;
+  background-color: #0fb4de;
+}
+
+.ages8-12tabletappsandonlinegamesrectanglemobile {
+  width: 100%;
+  height: 625px;
+  background-color: #0fb4de;
+}
+
+@media screen and (max-width : 1920px) {
+  .ages8-12tabletappsandonlinegamesrectangletablet {
+    display: none;
+  }
+
+  .ages8-12tabletappsandonlinegamesrectanglemobile {
+    display: none;
+  }
+
+  .ages8-12tabletappsandonlinegamesrectangle {
+    display: block;
+  }
+}
+
+@media screen and (min-width : 601px) and (max-width : 1024px) {
+  .ages8-12tabletappsandonlinegamesrectangletablet {
+    display: block;
+  }
+
+  .ages8-12tabletappsandonlinegamesrectanglemobile {
+    display: none;
+  }
+
+  .ages8-12tabletappsandonlinegamesrectangle {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .ages8-12tabletappsandonlinegamesrectangletablet {
+    display: none;
+  }
+
+  .ages8-12tabletappsandonlinegamesrectanglemobile {
+    display: block;
+  }
+
+  .ages8-12tabletappsandonlinegamesrectangle {
+    display: none;
+  }
 }
 
 .teensbooksrectangle {
@@ -986,10 +1094,64 @@ hr {
   background-color: #0fb4de;
 }
 
+.teensbooksrectangletablet {
+  width: 100%;
+  height: 790px;
+  background-color: #0fb4de;
+}
+
+.teensbooksrectanglemobile {
+  width: 100%;
+  height: 785px;
+  background-color: #0fb4de;
+}
+
+@media screen and (max-width : 1920px) {
+  .teensbooksrectangletablet {
+    display: none;
+  }
+
+  .teensbooksrectanglemobile {
+    display: none;
+  }
+
+  .teensbooksrectangle {
+    display: block;
+  }
+}
+
+@media screen and (min-width : 601px) and (max-width : 1024px) {
+  .teensbooksrectangletablet {
+    display: block;
+  }
+
+  .teensbooksrectanglemobile {
+    display: none;
+  }
+
+  .teensbooksrectangle {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .teensbooksrectangletablet {
+    display: none;
+  }
+
+  .teensbooksrectanglemobile {
+    display: block;
+  }
+
+  .teensbooksrectangle {
+    display: none;
+  }
+}
+
 .teenstabletappsandonlinegamesrectangle {
   width: 100%;
   height: 625px;
-  background-color: #0fb4de;
+  background-color: #23b839;
 }
 
 .caregiversemotionalwellbeingrectangle {
@@ -1001,19 +1163,19 @@ hr {
 .ages0-3tvchannelsandeducationalgamesrectangle {
   width: 100%;
   height: 700px;
-  background-color: #ffc800;
+  background-color: #23b839;
 }
 
 .ages0-3tvchannelsandeducationalgamesrectangletablet {
   width: 100%;
   height: 700px;
-  background-color: #ffc800;
+  background-color: #23b839;
 }
 
 .ages0-3tvchannelsandeducationalgamesrectanglemobile {
   width: 100%;
   height: 700px;
-  background-color: #ffc800;
+  background-color: #23b839;
 }
 
 @media screen and (max-width : 1920px) {
@@ -1061,19 +1223,19 @@ hr {
 .ages4-7tvchannelsandeducationalgamesrectangle {
   width: 100%;
   height: 700px;
-  background-color: #ffc800;
+  background-color: #23b839;
 }
 
 .ages4-7tvchannelsandeducationalgamesrectangletablet {
   width: 100%;
   height: 700px;
-  background-color: #ffc800;
+  background-color: #23b839;
 }
 
 .ages4-7tvchannelsandeducationalgamesrectanglemobile {
   width: 100%;
   height: 700px;
-  background-color: #ffc800;
+  background-color: #23b839;
 }
 
 @media screen and (max-width : 1920px) {
@@ -1121,19 +1283,127 @@ hr {
 .ages8-12tvchannelsandeducationalgamesrectangle {
   width: 100%;
   height: 700px;
-  background-color: #ffc800;
+  background-color: #23b839;
+}
+
+.ages8-12tvchannelsandeducationalgamesrectangletablet {
+  width: 100%;
+  height: 700px;
+  background-color: #23b839;
+}
+
+.ages8-12tvchannelsandeducationalgamesrectanglemobile {
+  width: 100%;
+  height: 700px;
+  background-color: #23b839;
+}
+
+@media screen and (max-width : 1920px) {
+  .ages8-12tvchannelsandeducationalgamesrectangletablet {
+    display: none;
+  }
+
+  .ages8-12tvchannelsandeducationalgamesrectanglemobile {
+    display: none;
+  }
+
+  .ages8-12tvchannelsandeducationalgamesrectangle {
+    display: block;
+  }
+}
+
+@media screen and (min-width : 601px) and (max-width : 1024px) {
+  .ages8-12tvchannelsandeducationalgamesrectangletablet {
+    display: block;
+  }
+
+  .ages8-12tvchannelsandeducationalgamesrectanglemobile {
+    display: none;
+  }
+
+  .ages8-12tvchannelsandeducationalgamesrectangle {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .ages8-12tvchannelsandeducationalgamesrectangletablet {
+    display: none;
+  }
+
+  .ages8-12tvchannelsandeducationalgamesrectanglemobile {
+    display: block;
+  }
+
+  .ages8-12tvchannelsandeducationalgamesrectangle {
+    display: none;
+  }
 }
 
 .teenstvchannelsandeducationalgamesrectangle {
   width: 100%;
   height: 675px;
-  background-color: #ffc800;
+  background-color: #23b839;
 }
 
 .caregiversadditionalcaregiverresourcesrectangle {
   width: 100%;
   height: 700px;
-  background-color: #ffc800;
+  background-color: #23b839;
+}
+
+.caregiversadditionalcaregiverresourcesrectangletablet {
+  width: 100%;
+  height: 700px;
+  background-color: #23b839;
+}
+
+.caregiversadditionalcaregiverresourcesrectanglemobile {
+  width: 100%;
+  height: 700px;
+  background-color: #23b839;
+}
+
+@media screen and (max-width : 1920px) {
+  .caregiversadditionalcaregiverresourcesrectangletablet {
+    display: none;
+  }
+
+  .caregiversadditionalcaregiverresourcesrectanglemobile {
+    display: none;
+  }
+
+  .caregiversadditionalcaregiverresourcesrectangle {
+    display: block;
+  }
+}
+
+@media screen and (min-width : 601px) and (max-width : 1024px) {
+  .caregiversadditionalcaregiverresourcesrectangletablet {
+    display: block;
+  }
+
+  .caregiversadditionalcaregiverresourcesrectanglemobile {
+    display: none;
+  }
+
+  .caregiversadditionalcaregiverresourcesrectangle {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .caregiversadditionalcaregiverresourcesrectangletablet {
+    display: none;
+  }
+
+  .caregiversadditionalcaregiverresourcesrectanglemobile {
+    display: block;
+  }
+
+  .caregiversadditionalcaregiverresourcesrectangle {
+    display: none;
+  }
 }
 
 .ages0-3musicrectangle {
@@ -1199,19 +1469,19 @@ hr {
 .ages4-7musicrectangle {
   width: 100%;
   height: 700px;
-  background-color: #f49f0b;
+  background-color: #23b839;
 }
 
 .ages4-7musicrectangletablet {
   width: 100%;
   height: 700px;
-  background-color: #f49f0b;
+  background-color: #23b839;
 }
 
 .ages4-7musicrectanglemobile {
   width: 100%;
   height: 700px;
-  background-color: #f49f0b;
+  background-color: #23b839;
 }
 
 @media screen and (max-width : 1920px) {
@@ -1259,19 +1529,19 @@ hr {
 .ages0-3onlinemuseumsandzoosrectangle {
   width: 100%;
   height: 750px;
-  background-color: #23b839;
+  background-color: #1c3c7a;
 }
 
 .ages0-3onlinemuseumsandzoosrectangletablet {
   width: 100%;
   height: 750px;
-  background-color: #23b839;
+  background-color: #1c3c7a;
 }
 
 .ages0-3onlinemuseumsandzoosrectanglemobile {
   width: 100%;
   height: 750px;
-  background-color: #23b839;
+  background-color: #1c3c7a;
 }
 
 @media screen and (max-width : 1920px) {
@@ -1319,19 +1589,19 @@ hr {
 .ages4-7onlinemuseumsandzoosrectangle {
   width: 100%;
   height: 765px;
-  background-color: #23b839;
+  background-color: #1c3c7a;
 }
 
 .ages4-7onlinemuseumsandzoosrectangletablet {
   width: 100%;
   height: 950px;
-  background-color: #23b839;
+  background-color: #1c3c7a;
 }
 
 .ages4-7onlinemuseumsandzoosrectanglemobile {
   width: 100%;
   height: 765px;
-  background-color: #23b839;
+  background-color: #1c3c7a;
 }
 
 @media screen and (max-width : 1920px) {
@@ -1379,37 +1649,145 @@ hr {
 .ages8-12onlinemuseumsandzoosrectangle {
   width: 100%;
   height: 950px;
-  background-color: #23b839;
+  background-color: #1c3c7a;
+}
+
+.ages8-12onlinemuseumsandzoosrectangletablet {
+  width: 100%;
+  height: 950px;
+  background-color: #1c3c7a;
+}
+
+.ages8-12onlinemuseumsandzoosrectanglemobile {
+  width: 100%;
+  height: 950px;
+  background-color: #1c3c7a;
+}
+
+@media screen and (max-width : 1920px) {
+  .ages8-12onlinemuseumsandzoosrectangletablet {
+    display: none;
+  }
+
+  .ages8-12onlinemuseumsandzoosrectanglemobile {
+    display: none;
+  }
+
+  .ages8-12onlinemuseumsandzoosrectangle {
+    display: block;
+  }
+}
+
+@media screen and (min-width : 601px) and (max-width : 1024px) {
+  .ages8-12onlinemuseumsandzoosrectangletablet {
+    display: block;
+  }
+
+  .ages8-12onlinemuseumsandzoosrectanglemobile {
+    display: none;
+  }
+
+  .ages8-12onlinemuseumsandzoosrectangle {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .ages8-12onlinemuseumsandzoosrectangletablet {
+    display: none;
+  }
+
+  .ages8-12onlinemuseumsandzoosrectanglemobile {
+    display: block;
+  }
+
+  .ages8-12onlinemuseumsandzoosrectangle {
+    display: none;
+  }
 }
 
 .teensonlinemuseumsandzoosrectangle {
   width: 100%;
   height: 950px;
-  background-color: #23b839;
+  background-color: #1c3c7a;
+}
+
+.teensonlinemuseumsandzoosrectangletablet {
+  width: 100%;
+  height: 950px;
+  background-color: #1c3c7a;
+}
+
+.teensonlinemuseumsandzoosrectanglemobile {
+  width: 100%;
+  height: 950px;
+  background-color: #1c3c7a;
+}
+
+@media screen and (max-width : 1920px) {
+  .teensonlinemuseumsandzoosrectangletablet {
+    display: none;
+  }
+
+  .teensonlinemuseumsandzoosrectanglemobile {
+    display: none;
+  }
+
+  .teensonlinemuseumsandzoosrectangle {
+    display: block;
+  }
+}
+
+@media screen and (min-width : 601px) and (max-width : 1024px) {
+  .teensonlinemuseumsandzoosrectangletablet {
+    display: block;
+  }
+
+  .teensonlinemuseumsandzoosrectanglemobile {
+    display: none;
+  }
+
+  .teensonlinemuseumsandzoosrectangle {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .teensonlinemuseumsandzoosrectangletablet {
+    display: none;
+  }
+
+  .teensonlinemuseumsandzoosrectanglemobile {
+    display: block;
+  }
+
+  .teensonlinemuseumsandzoosrectangle {
+    display: none;
+  }
 }
 
 .ages0-3othersrectangle {
   width: 100%;
   height: 625px;
-  background-color: #f49f0b;
+  background-color: #00a7e1;
 }
 
 .ages4-7othersrectangle {
   width: 100%;
   height: 675px;
-  background-color: #f49f0b;
+  background-color: #00a7e1;
 }
 
 .ages4-7othersrectangletablet {
   width: 100%;
   height: 675px;
-  background-color: #f49f0b;
+  background-color: #00a7e1;
 }
 
 .ages4-7othersrectanglemobile {
   width: 100%;
   height: 675px;
-  background-color: #f49f0b;
+  background-color: #00a7e1;
 }
 
 @media screen and (max-width : 1920px) {
@@ -1457,13 +1835,361 @@ hr {
 .ages8-12othersrectangle {
   width: 100%;
   height: 700px;
-  background-color: #f49f0b;
+  background-color: #23b839;
+}
+
+.ages8-12othersrectangletablet {
+  width: 100%;
+  height: 700px;
+  background-color: #23b839;
+}
+
+.ages8-12othersrectanglemobile {
+  width: 100%;
+  height: 700px;
+  background-color: #23b839;
+}
+
+@media screen and (max-width : 1920px) {
+  .ages8-12othersrectangletablet {
+    display: none;
+  }
+
+  .ages8-12othersrectanglemobile {
+    display: none;
+  }
+
+  .ages8-12othersrectangle {
+    display: block;
+  }
+}
+
+@media screen and (min-width : 601px) and (max-width : 1024px) {
+  .ages8-12othersrectangletablet {
+    display: block;
+  }
+
+  .ages8-12othersrectanglemobile {
+    display: none;
+  }
+
+  .ages8-12othersrectangle {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .ages8-12othersrectangletablet {
+    display: none;
+  }
+
+  .ages8-12othersrectanglemobile {
+    display: block;
+  }
+
+  .ages8-12othersrectangle {
+    display: none;
+  }
 }
 
 .teensothersrectangle {
   width: 100%;
   height: 700px;
+  background-color: #00a7e1;
+}
+
+.teensothersrectangletablet {
+  width: 100%;
+  height: 700px;
+  background-color: #00a7e1;
+}
+
+.teensothersrectanglemobile {
+  width: 100%;
+  height: 700px;
+  background-color: #00a7e1;
+}
+
+@media screen and (max-width : 1920px) {
+  .teensothersrectangletablet {
+    display: none;
+  }
+
+  .teensothersrectanglemobile {
+    display: none;
+  }
+
+  .teensothersrectangle {
+    display: block;
+  }
+}
+
+@media screen and (min-width : 601px) and (max-width : 1024px) {
+  .teensothersrectangletablet {
+    display: block;
+  }
+
+  .teensothersrectanglemobile {
+    display: none;
+  }
+
+  .teensothersrectangle {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .teensothersrectangletablet {
+    display: none;
+  }
+
+  .teensothersrectanglemobile {
+    display: block;
+  }
+
+  .teensothersrectangle {
+    display: none;
+  }
+}
+
+.ages0-3projectsunshinevolunteercreatedcoloringactivitiesrectangle {
+  width: 100%;
+  height: 675px;
   background-color: #f49f0b;
+}
+
+.ages0-3projectsunshinevolunteercreatedcoloringactivitiesrectangletablet {
+  width: 100%;
+  height: 675px;
+  background-color: #f49f0b;
+}
+
+.ages0-3projectsunshinevolunteercreatedcoloringactivitiesrectanglemobile {
+  width: 100%;
+  height: 675px;
+  background-color: #f49f0b;
+}
+
+@media screen and (max-width : 1920px) {
+  .ages0-3projectsunshinevolunteercreatedcoloringactivitiesrectangletablet {
+    display: none;
+  }
+
+  .ages0-3projectsunshinevolunteercreatedcoloringactivitiesrectanglemobile {
+    display: none;
+  }
+
+  .ages0-3projectsunshinevolunteercreatedcoloringactivitiesrectangle {
+    display: block;
+  }
+}
+
+@media screen and (min-width : 601px) and (max-width : 1024px) {
+  .ages0-3projectsunshinevolunteercreatedcoloringactivitiesrectangletablet {
+    display: block;
+  }
+
+  .ages0-3projectsunshinevolunteercreatedcoloringactivitiesrectanglemobile {
+    display: none;
+  }
+
+  .ages0-3projectsunshinevolunteercreatedcoloringactivitiesrectangle {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .ages0-3projectsunshinevolunteercreatedcoloringactivitiesrectangletablet {
+    display: none;
+  }
+
+  .ages0-3projectsunshinevolunteercreatedcoloringactivitiesrectanglemobile {
+    display: block;
+  }
+
+  .ages0-3projectsunshinevolunteercreatedcoloringactivitiesrectangle {
+    display: none;
+  }
+}
+
+.ages4-7projectsunshinevolunteercreatedcoloringactivitiesrectangle {
+  width: 100%;
+  height: 675px;
+  background-color: #f49f0b;
+}
+
+.ages4-7projectsunshinevolunteercreatedcoloringactivitiesrectangletablet {
+  width: 100%;
+  height: 675px;
+  background-color: #f49f0b;
+}
+
+.ages4-7projectsunshinevolunteercreatedcoloringactivitiesrectanglemobile {
+  width: 100%;
+  height: 675px;
+  background-color: #f49f0b;
+}
+
+@media screen and (max-width : 1920px) {
+  .ages4-7projectsunshinevolunteercreatedcoloringactivitiesrectangletablet {
+    display: none;
+  }
+
+  .ages4-7projectsunshinevolunteercreatedcoloringactivitiesrectanglemobile {
+    display: none;
+  }
+
+  .ages4-7projectsunshinevolunteercreatedcoloringactivitiesrectangle {
+    display: block;
+  }
+}
+
+@media screen and (min-width : 601px) and (max-width : 1024px) {
+  .ages4-7projectsunshinevolunteercreatedcoloringactivitiesrectangletablet {
+    display: block;
+  }
+
+  .ages4-7projectsunshinevolunteercreatedcoloringactivitiesrectanglemobile {
+    display: none;
+  }
+
+  .ages4-7projectsunshinevolunteercreatedcoloringactivitiesrectangle {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .ages4-7projectsunshinevolunteercreatedcoloringactivitiesrectangletablet {
+    display: none;
+  }
+
+  .ages4-7projectsunshinevolunteercreatedcoloringactivitiesrectanglemobile {
+    display: block;
+  }
+
+  .ages4-7projectsunshinevolunteercreatedcoloringactivitiesrectangle {
+    display: none;
+  }
+}
+
+.ages8-12projectsunshinevolunteercreatedcoloringactivitiesrectangle {
+  width: 100%;
+  height: 675px;
+  background-color: #f49f0b;
+}
+
+.ages8-12projectsunshinevolunteercreatedcoloringactivitiesrectangletablet {
+  width: 100%;
+  height: 675px;
+  background-color: #f49f0b;
+}
+
+.ages8-12projectsunshinevolunteercreatedcoloringactivitiesrectanglemobile {
+  width: 100%;
+  height: 675px;
+  background-color: #f49f0b;
+}
+
+@media screen and (max-width : 1920px) {
+  .ages8-12projectsunshinevolunteercreatedcoloringactivitiesrectangletablet {
+    display: none;
+  }
+
+  .ages8-12projectsunshinevolunteercreatedcoloringactivitiesrectanglemobile {
+    display: none;
+  }
+
+  .ages8-12projectsunshinevolunteercreatedcoloringactivitiesrectangle {
+    display: block;
+  }
+}
+
+@media screen and (min-width : 601px) and (max-width : 1024px) {
+  .ages8-12projectsunshinevolunteercreatedcoloringactivitiesrectangletablet {
+    display: block;
+  }
+
+  .ages8-12projectsunshinevolunteercreatedcoloringactivitiesrectanglemobile {
+    display: none;
+  }
+
+  .ages8-12projectsunshinevolunteercreatedcoloringactivitiesrectangle {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .ages8-12projectsunshinevolunteercreatedcoloringactivitiesrectangletablet {
+    display: none;
+  }
+
+  .ages8-12projectsunshinevolunteercreatedcoloringactivitiesrectanglemobile {
+    display: block;
+  }
+
+  .ages8-12projectsunshinevolunteercreatedcoloringactivitiesrectangle {
+    display: none;
+  }
+}
+
+.teensprojectsunshinevolunteercreatedcoloringactivitiesrectangle {
+  width: 100%;
+  height: 675px;
+  background-color: #f49f0b;
+}
+
+.teensprojectsunshinevolunteercreatedcoloringactivitiesrectangletablet {
+  width: 100%;
+  height: 675px;
+  background-color: #f49f0b;
+}
+
+.teensprojectsunshinevolunteercreatedcoloringactivitiesrectanglemobile {
+  width: 100%;
+  height: 675px;
+  background-color: #f49f0b;
+}
+
+@media screen and (max-width : 1920px) {
+  .teensprojectsunshinevolunteercreatedcoloringactivitiesrectangletablet {
+    display: none;
+  }
+
+  .teensprojectsunshinevolunteercreatedcoloringactivitiesrectanglemobile {
+    display: none;
+  }
+
+  .teensprojectsunshinevolunteercreatedcoloringactivitiesrectangle {
+    display: block;
+  }
+}
+
+@media screen and (min-width : 601px) and (max-width : 1024px) {
+  .teensprojectsunshinevolunteercreatedcoloringactivitiesrectangletablet {
+    display: block;
+  }
+
+  .teensprojectsunshinevolunteercreatedcoloringactivitiesrectanglemobile {
+    display: none;
+  }
+
+  .teensprojectsunshinevolunteercreatedcoloringactivitiesrectangle {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .teensprojectsunshinevolunteercreatedcoloringactivitiesrectangletablet {
+    display: none;
+  }
+
+  .teensprojectsunshinevolunteercreatedcoloringactivitiesrectanglemobile {
+    display: block;
+  }
+
+  .teensprojectsunshinevolunteercreatedcoloringactivitiesrectangle {
+    display: none;
+  }
 }
 
 .activitykitsrectangle {
@@ -2564,9 +3290,42 @@ hr {
     }
   }
 
+  h3.ages0-3projectsunshinevolunteercreatedcoloringactivities {
+    text-align: center;
+    font-size: 26px;
+  }
+
+  @media screen and (max-width: 600px) {
+    h3.ages0-3projectsunshinevolunteercreatedcoloringactivities {
+      text-align: center;
+      font-size: 20px;
+    }
+  }
+  
+  @media screen and (min-width : 601px) and (max-width : 1024px) {
+    h3.ages0-3projectsunshinevolunteercreatedcoloringactivities {
+      text-align: center;
+      font-size: 22px;
+    }
+  }
+
   h3.teensbooks {
     text-align: center;
     font-size: 26px;
+  }
+
+  @media screen and (max-width: 600px) {
+    h3.teensbooks {
+      text-align: center;
+      font-size: 20px;
+    }
+  }
+  
+  @media screen and (min-width : 601px) and (max-width : 1024px) {
+    h3.teensbooks {
+      text-align: center;
+      font-size: 22px;
+    }
   }
 
   h3.teenstvchannelsandeducationalgames {
@@ -2574,9 +3333,37 @@ hr {
     font-size: 26px;
   }
 
+  @media screen and (max-width: 600px) {
+    h3.teenstvchannelsandeducationalgames {
+      text-align: center;
+      font-size: 20px;
+    }
+  }
+  
+  @media screen and (min-width : 601px) and (max-width : 1024px) {
+    h3.teenstvchannelsandeducationalgames {
+      text-align: center;
+      font-size: 22px;
+    }
+  }
+
   h3.teensonlinemuseumsandzoos {
     text-align: center;
     font-size: 26px;
+  }
+
+  @media screen and (max-width: 600px) {
+    h3.teensonlinemuseumsandzoos {
+      text-align: center;
+      font-size: 20px;
+    }
+  }
+  
+  @media screen and (min-width : 601px) and (max-width : 1024px) {
+    h3.teensonlinemuseumsandzoos {
+      text-align: center;
+      font-size: 22px;
+    }
   }
 
   h3.teenstabletappsandonlinegames {
@@ -2584,9 +3371,56 @@ hr {
     font-size: 26px;
   }
 
+  @media screen and (max-width: 600px) {
+    h3.teenstabletappsandonlinegames {
+      text-align: center;
+      font-size: 20px;
+    }
+  }
+  
+  @media screen and (min-width : 601px) and (max-width : 1024px) {
+    h3.teenstabletappsandonlinegames {
+      text-align: center;
+      font-size: 22px;
+    }
+  }
+
   h3.teensothers {
     text-align: center;
     font-size: 26px;
+  }
+
+  @media screen and (max-width: 600px) {
+    h3.teensothers {
+      text-align: center;
+      font-size: 20px;
+    }
+  }
+  
+  @media screen and (min-width : 601px) and (max-width : 1024px) {
+    h3.teensothers {
+      text-align: center;
+      font-size: 22px;
+    }
+  }
+
+  h3.teensprojectsunshinevolunteercreatedcoloringactivities {
+    text-align: center;
+    font-size: 26px;
+  }
+
+  @media screen and (max-width: 600px) {
+    h3.teensprojectsunshinevolunteercreatedcoloringactivities {
+      text-align: center;
+      font-size: 20px;
+    }
+  }
+  
+  @media screen and (min-width : 601px) and (max-width : 1024px) {
+    h3.teensprojectsunshinevolunteercreatedcoloringactivities {
+      text-align: center;
+      font-size: 22px;
+    }
   }
 
   h3.caregiversfamilyactivity {
@@ -2594,14 +3428,56 @@ hr {
     font-size: 26px;
   }
 
+  @media screen and (max-width: 600px) {
+    h3.caregiversfamilyactivity {
+      text-align: center;
+      font-size: 20px;
+    }
+  }
+  
+  @media screen and (min-width : 601px) and (max-width : 1024px) {
+    h3.caregiversfamilyactivity {
+      text-align: center;
+      font-size: 22px;
+    }
+  }
+
   h3.caregiversemotionalwellbeing {
     text-align: center;
     font-size: 26px;
   }
 
+  @media screen and (max-width: 600px) {
+    h3.caregiversemotionalwellbeing {
+      text-align: center;
+      font-size: 20px;
+    }
+  }
+  
+  @media screen and (min-width : 601px) and (max-width : 1024px) {
+    h3.caregiversemotionalwellbeing {
+      text-align: center;
+      font-size: 22px;
+    }
+  }
+
   h3.caregiversadditionalcaregiverresources {
     text-align: center;
     font-size: 26px;
+  }
+
+  @media screen and (max-width: 600px) {
+    h3.caregiversadditionalcaregiverresources {
+      text-align: center;
+      font-size: 20px;
+    }
+  }
+  
+  @media screen and (min-width : 601px) and (max-width : 1024px) {
+    h3.caregiversadditionalcaregiverresources {
+      text-align: center;
+      font-size: 22px;
+    }
   }
 
   h3.ages4-7 {
@@ -2760,9 +3636,42 @@ hr {
     }
   }
 
+  h3.ages4-7projectsunshinevolunteercreatedcoloringactivities {
+    text-align: center;
+    font-size: 26px;
+  }
+
+  @media screen and (max-width: 600px) {
+    h3.ages4-7projectsunshinevolunteercreatedcoloringactivities {
+      text-align: center;
+      font-size: 20px;
+    }
+  }
+  
+  @media screen and (min-width : 601px) and (max-width : 1024px) {
+    h3.ages4-7projectsunshinevolunteercreatedcoloringactivities {
+      text-align: center;
+      font-size: 22px;
+    }
+  }
+
   h3.ages8-12books {
     text-align: center;
     font-size: 26px;
+  }
+
+  @media screen and (max-width: 600px) {
+    h3.ages8-12books {
+      text-align: center;
+      font-size: 20px;
+    }
+  }
+  
+  @media screen and (min-width : 601px) and (max-width : 1024px) {
+    h3.ages8-12books {
+      text-align: center;
+      font-size: 22px;
+    }
   }
 
   h3.ages8-12tvchannelandeducationalgames {
@@ -2770,9 +3679,37 @@ hr {
     font-size: 26px;
   }
 
+  @media screen and (max-width: 600px) {
+    h3.ages8-12tvchannelandeducationalgames {
+      text-align: center;
+      font-size: 20px;
+    }
+  }
+  
+  @media screen and (min-width : 601px) and (max-width : 1024px) {
+    h3.ages8-12tvchannelandeducationalgames {
+      text-align: center;
+      font-size: 22px;
+    }
+  }
+
   h3.ages8-12onlinemuseumsandzoos {
     text-align: center;
     font-size: 26px;
+  }
+
+  @media screen and (max-width: 600px) {
+    h3.ages8-12onlinemuseumsandzoos {
+      text-align: center;
+      font-size: 20px;
+    }
+  }
+  
+  @media screen and (min-width : 601px) and (max-width : 1024px) {
+    h3.ages8-12onlinemuseumsandzoos {
+      text-align: center;
+      font-size: 22px;
+    }
   }
 
   h3.ages8-12tabletappsandonlinegames {
@@ -2780,9 +3717,56 @@ hr {
     font-size: 26px;
   }
 
+  @media screen and (max-width: 600px) {
+    h3.ages8-12tabletappsandonlinegames {
+      text-align: center;
+      font-size: 20px;
+    }
+  }
+  
+  @media screen and (min-width : 601px) and (max-width : 1024px) {
+    h3.ages8-12tabletappsandonlinegames {
+      text-align: center;
+      font-size: 22px;
+    }
+  }
+
   h3.ages8-12others {
     text-align: center;
     font-size: 26px;
+  }
+
+  @media screen and (max-width: 600px) {
+    h3.ages8-12others {
+      text-align: center;
+      font-size: 20px;
+    }
+  }
+  
+  @media screen and (min-width : 601px) and (max-width : 1024px) {
+    h3.ages8-12others {
+      text-align: center;
+      font-size: 22px;
+    }
+  }
+
+  h3.ages8-12projectsunshinevolunteercreatedcoloringactivities {
+    text-align: center;
+    font-size: 26px;
+  }
+
+  @media screen and (max-width: 600px) {
+    h3.ages8-12projectsunshinevolunteercreatedcoloringactivities {
+      text-align: center;
+      font-size: 20px;
+    }
+  }
+  
+  @media screen and (min-width : 601px) and (max-width : 1024px) {
+    h3.ages8-12projectsunshinevolunteercreatedcoloringactivities {
+      text-align: center;
+      font-size: 22px;
+    }
   }
 
   h4 {
