@@ -842,6 +842,60 @@ hr {
   background-color: #f49f0b;
 }
 
+.caregiversfamilyactivityrectangletablet {
+  width: 100%;
+  height: 650px;
+  background-color: #f49f0b;
+}
+
+.caregiversfamilyactivityrectanglemobile {
+  width: 100%;
+  height: 650px;
+  background-color: #f49f0b;
+}
+
+@media screen and (max-width : 1920px) {
+  .caregiversfamilyactivityrectangletablet {
+    display: none;
+  }
+
+  .caregiversfamilyactivityrectanglemobile {
+    display: none;
+  }
+
+  .caregiversfamilyactivityrectangle {
+    display: block;
+  }
+}
+
+@media screen and (min-width : 601px) and (max-width : 1024px) {
+  .caregiversfamilyactivityrectangletablet {
+    display: block;
+  }
+
+  .caregiversfamilyactivityrectanglemobile {
+    display: none;
+  }
+
+  .caregiversfamilyactivityrectangle {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .caregiversfamilyactivityrectangletablet {
+    display: none;
+  }
+
+  .caregiversfamilyactivityrectanglemobile {
+    display: block;
+  }
+
+  .caregiversfamilyactivityrectangle {
+    display: none;
+  }
+}
+
 .ages0-3booksrectangle {
   width: 100%;
   height: 800px;
