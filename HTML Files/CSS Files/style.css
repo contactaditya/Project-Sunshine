@@ -806,10 +806,118 @@ hr {
   background-color: #f49f0b;
 }
 
+.ages8-12rectangletablet {
+  width: 100%;
+  height: 800px;
+  background-color: #f49f0b;
+}
+
+.ages8-12rectanglemobile {
+  width: 100%;
+  height: 800px;
+  background-color: #f49f0b;
+}
+
+@media screen and (max-width : 1920px) {
+  .ages8-12rectangle {
+    display: block;
+  }
+
+  .ages8-12rectangletablet {
+    display: none;
+  }
+
+  .ages8-12rectanglemobile {
+    display: none;
+  }
+}
+
+@media screen and (min-width : 601px) and (max-width : 1024px) {
+  .ages8-12rectangle {
+    display: none;
+  }
+
+  .ages8-12rectangletablet {
+    display: block;
+  }
+
+  .ages8-12rectanglemobile {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .ages8-12rectangle {
+    display: none;
+  }
+
+  .ages8-12rectangletablet {
+    display: none;
+  }
+
+  .ages8-12rectanglemobile {
+    display: block;
+  }
+}
+
 .teensrectangle {
   width: 100%;
-  height: 900px;
+  height: 850px;
   background-color: #f49f0b;
+}
+
+.teensrectangletablet {
+  width: 100%;
+  height: 750px;
+  background-color: #f49f0b;
+}
+
+.teensrectanglemobile {
+  width: 100%;
+  height: 750px;
+  background-color: #f49f0b;
+}
+
+@media screen and (max-width : 1920px) {
+  .teensrectangle {
+    display: block;
+  }
+
+  .teensrectangletablet {
+    display: none;
+  }
+
+  .teensrectanglemobile {
+    display: none;
+  }
+}
+
+@media screen and (min-width : 601px) and (max-width : 1024px) {
+  .teensrectangle {
+    display: none;
+  }
+
+  .teensrectangletablet {
+    display: block;
+  }
+
+  .teensrectanglemobile {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .teensrectangle {
+    display: none;
+  }
+
+  .teensrectangletablet {
+    display: none;
+  }
+
+  .teensrectanglemobile {
+    display: block;
+  }
 }
 
 #VisualClasses {
@@ -1208,6 +1316,60 @@ hr {
   background-color: #23b839;
 }
 
+.teenstabletappsandonlinegamesrectangletablet {
+  width: 100%;
+  height: 675px;
+  background-color: #23b839;
+}
+
+.teenstabletappsandonlinegamesrectanglemobile {
+  width: 100%;
+  height: 675px;
+  background-color: #23b839;
+}
+
+@media screen and (max-width : 1920px) {
+  .teenstabletappsandonlinegamesrectangletablet {
+    display: none;
+  }
+
+  .teenstabletappsandonlinegamesrectanglemobile {
+    display: none;
+  }
+
+  .teenstabletappsandonlinegamesrectangle {
+    display: block;
+  }
+}
+
+@media screen and (min-width : 601px) and (max-width : 1024px) {
+  .teenstabletappsandonlinegamesrectangletablet {
+    display: block;
+  }
+
+  .teenstabletappsandonlinegamesrectanglemobile {
+    display: none;
+  }
+
+  .teenstabletappsandonlinegamesrectangle {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .teenstabletappsandonlinegamesrectangletablet {
+    display: none;
+  }
+
+  .teenstabletappsandonlinegamesrectanglemobile {
+    display: block;
+  }
+
+  .teenstabletappsandonlinegamesrectangle {
+    display: none;
+  }
+}
+
 .caregiversemotionalwellbeingrectangle {
   width: 100%;
   height: 805px;
@@ -1452,6 +1614,60 @@ hr {
   width: 100%;
   height: 675px;
   background-color: #23b839;
+}
+
+.teenstvchannelsandeducationalgamesrectangletablet {
+  width: 100%;
+  height: 675px;
+  background-color: #23b839;
+}
+
+.teenstvchannelsandeducationalgamesrectanglemobile {
+  width: 100%;
+  height: 675px;
+  background-color: #23b839;
+}
+
+@media screen and (max-width : 1920px) {
+  .teenstvchannelsandeducationalgamesrectangletablet {
+    display: none;
+  }
+
+  .teenstvchannelsandeducationalgamesrectanglemobile {
+    display: none;
+  }
+
+  .teenstvchannelsandeducationalgamesrectangle {
+    display: block;
+  }
+}
+
+@media screen and (min-width : 601px) and (max-width : 1024px) {
+  .teenstvchannelsandeducationalgamesrectangletablet {
+    display: block;
+  }
+
+  .teenstvchannelsandeducationalgamesrectanglemobile {
+    display: none;
+  }
+
+  .teenstvchannelsandeducationalgamesrectangle {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .teenstvchannelsandeducationalgamesrectangletablet {
+    display: none;
+  }
+
+  .teenstvchannelsandeducationalgamesrectanglemobile {
+    display: block;
+  }
+
+  .teenstvchannelsandeducationalgamesrectangle {
+    display: none;
+  }
 }
 
 .caregiversadditionalcaregiverresourcesrectangle {
@@ -3668,14 +3884,13 @@ hr {
   }
 
   h3.ages4-7 {
-    text-align: left;
-    padding-left: 200px;
+    text-align: center;
     font-size: 26px;
   }
 
   @media screen and (max-width: 600px) {
     h3.ages4-7 {
-      font-size: 14px;
+      font-size: 18px;
       padding-left: 0px;
       text-align: center;
     }
@@ -3683,20 +3898,20 @@ hr {
   
   @media screen and (min-width : 601px) and (max-width : 1024px) {
     h3.ages4-7 {
-      font-size: 20px;
-      padding-left: 150px;
+      font-size: 22px;
+      padding-left: 0px;
+      text-align: center;
     }
   }
 
   h3.ages4-7-1 {
-    text-align: right;
-    padding-right: 200px;
+    text-align: center;
     font-size: 26px;
   }
 
   @media screen and (max-width: 600px) {
     h3.ages4-7-1 {
-      font-size: 14px;
+      font-size: 18px;
       padding-right: 0px;
       text-align: center;
     }
@@ -3704,8 +3919,9 @@ hr {
   
   @media screen and (min-width : 601px) and (max-width : 1024px) {
     h3.ages4-7-1 {
-      font-size: 20px;
-      padding-right: 150px;
+      font-size: 22px;
+      padding-right: 0px;
+      text-align: center;
     }
   }
 
